@@ -578,7 +578,7 @@ function initYearPage() {
   const { year } = getParams();
   const yearData = YEARS[year];
   
-  if (!yearData) { window.location.href = '../index.html'; return; }
+  if (!yearData) { window.location.href = 'index.html'; return; }
   
   const titleEl = document.getElementById('pageTitle');
   const descEl = document.getElementById('pageDesc');
@@ -637,7 +637,7 @@ function initTrackPage() {
   const tracksObj = year === '1AS' ? TRACKS_1AS : (year === '2AS' ? TRACKS_2AS : TRACKS);
   const trackData = tracksObj[track];
   
-  if (!trackData) { window.location.href = '../index.html'; return; }
+  if (!trackData) { window.location.href = 'index.html'; return; }
   
   let arTrackName = track;
   if (track === "Sciences") arTrackName = "علوم تجريبية";

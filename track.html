@@ -1,19 +1,19 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EduDZ - تفاصيل المستوى</title>
+  <title>EduDZ - تفاصيل الشعبة</title>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <!-- Loading Screen -->
   <div class="loader-overlay" id="loader" aria-hidden="true">
     <div class="loader-content">
-      <img src="../images/logo.png" alt="EduDZ" class="loader-logo" style="height:60px; border-radius:12px; box-shadow:0 8px 16px rgba(0,0,0,0.1); background: white;">
+      <img src="logo.png" alt="EduDZ" class="loader-logo" style="height:60px; border-radius:12px; box-shadow:0 8px 16px rgba(0,0,0,0.1); background: white;">
       <div class="loader-bar"><div class="loader-progress"></div></div>
       <p>جاري التحميل...</p>
     </div>
@@ -22,12 +22,12 @@
   <!-- Navbar -->
   <nav class="navbar" id="navbar">
     <div class="nav-container">
-      <a href="../index.html" class="nav-logo">
-        <img src="../images/logo.png" alt="EduDZ" style="height:36px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+      <a href="index.html" class="nav-logo">
+        <img src="logo.png" alt="EduDZ" style="height:36px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
         <span class="logo-text">Edu<span class="logo-dz">DZ</span></span>
       </a>
       <ul class="nav-links" id="navLinks">
-        <li><a href="../index.html">الرئيسية</a></li>
+        <li><a href="index.html">الرئيسية</a></li>
         <li><a href="year.html?year=1AS">أولى ثانوي</a></li>
         <li><a href="year.html?year=2AS">ثانية ثانوي</a></li>
         <li><a href="year.html?year=3AS">النهائي (بكالوريا)</a></li>
@@ -52,26 +52,28 @@
     <div class="container">
       <nav class="breadcrumb" aria-label="مسار التصفح">
         <ol>
-          <li><a href="../index.html">الرئيسية</a></li>
+          <li><a href="index.html">الرئيسية</a></li>
           <li class="separator"><i class="fa-solid fa-chevron-left" style="font-size: 0.8em"></i></li>
-          <li aria-current="page" id="bc-year">3AS</li>
+          <li><a href="#" id="bc-year">3AS</a></li>
+          <li class="separator"><i class="fa-solid fa-chevron-left" style="font-size: 0.8em"></i></li>
+          <li aria-current="page" id="bc-track">الشعبة</li>
         </ol>
       </nav>
       
       <div class="page-header-content">
-        <div class="year-badge" id="pageBadge">3AS</div>
-        <h1 id="pageTitle">القسم النهائي</h1>
+        <div class="year-badge" id="pageBadge" style="background: var(--bg-sidebar); border: 1px solid var(--border); color: var(--text-primary)">3AS • الشعبة</div>
+        <h1 id="pageTitle">اسم الشعبة</h1>
         <p id="pageDesc" style="color: var(--text-secondary); max-width: 600px;">
-          التحضير لشهادة البكالوريا
+          وصف مختصر للشعبة وتفاصيلها.
         </p>
       </div>
     </div>
   </div>
 
-  <!-- Tracks Section -->
-  <section class="tracks-section" style="padding-bottom: 5rem;">
+  <!-- Subjects Section -->
+  <section class="subjects-section" style="padding-bottom: 5rem;">
     <div class="container">
-      <div class="auto-grid" id="tracksContainer" style="--min-col: 280px; gap: 2rem;">
+      <div class="auto-grid" id="subjectsContainer" style="--min-col: 220px; gap: 1.5rem;">
         <!-- Injected via JS -->
       </div>
     </div>
@@ -82,8 +84,8 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-col">
-          <a href="../index.html" class="nav-logo" style="margin-bottom: 1rem; display: flex;">
-            <img src="../images/logo.png" alt="EduDZ" style="height:36px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);"><span class="logo-text">Edu<span class="logo-dz">DZ</span></span>
+          <a href="index.html" class="nav-logo" style="margin-bottom: 1rem; display: flex;">
+            <img src="logo.png" alt="EduDZ" style="height:36px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);"><span class="logo-text">Edu<span class="logo-dz">DZ</span></span>
           </a>
           <p style="font-size: var(--text-sm); color: var(--text-secondary); max-width: 300px;">
             المنصة التعليمية المثلى لتلاميذ الطور الثانوي في الجزائر.
@@ -92,7 +94,7 @@
         <div class="footer-col">
           <h5>روابط سريعة</h5>
           <ul>
-            <li><a href="../index.html">الرئيسية</a></li>
+            <li><a href="index.html">الرئيسية</a></li>
             <li><a href="year.html?year=1AS">السنة الأولى ثانوي</a></li>
             <li><a href="year.html?year=2AS">السنة الثانية ثانوي</a></li>
             <li><a href="year.html?year=3AS">القسم النهائي (بكالوريا)</a></li>
@@ -105,6 +107,6 @@
     </div>
   </footer>
 
-  <script src="../js/app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>

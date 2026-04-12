@@ -7,14 +7,14 @@
   <meta name="description" content="منصة تعليمية متكاملة لطلاب الثانوي في الجزائر. دروس، تمارين مفصلة، وملخصات.">
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <!-- Loading Screen -->
   <div class="loader-overlay" id="loader" aria-hidden="true">
     <div class="loader-content">
-      <img src="images/logo.png" alt="EduDZ" class="loader-logo" style="height:60px; border-radius:12px; box-shadow:0 8px 16px rgba(0,0,0,0.1); background: white;">
+      <img src="logo.png" alt="EduDZ" class="loader-logo" style="height:60px; border-radius:12px; box-shadow:0 8px 16px rgba(0,0,0,0.1); background: white;">
       <div class="loader-bar">
         <div class="loader-progress"></div>
       </div>
@@ -26,15 +26,15 @@
   <nav class="navbar" id="navbar">
     <div class="nav-container">
       <a href="index.html" class="nav-logo">
-        <img src="images/logo.png" alt="EduDZ" style="height:36px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+        <img src="logo.png" alt="EduDZ" style="height:36px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
         <span class="logo-text">Edu<span class="logo-dz">DZ</span></span>
       </a>
 
       <ul class="nav-links" id="navLinks">
         <li><a href="index.html">الرئيسية</a></li>
-        <li><a href="pages/year.html?year=1AS">أولى ثانوي</a></li>
-        <li><a href="pages/year.html?year=2AS">ثانية ثانوي</a></li>
-        <li><a href="pages/year.html?year=3AS" style="color: var(--primary); font-weight:700">النهائي (بكالوريا)</a></li>
+        <li><a href="year.html?year=1AS">أولى ثانوي</a></li>
+        <li><a href="year.html?year=2AS">ثانية ثانوي</a></li>
+        <li><a href="year.html?year=3AS" style="color: var(--primary); font-weight:700">النهائي (بكالوريا)</a></li>
       </ul>
 
       <div class="nav-actions">
@@ -42,7 +42,7 @@
         <button class="btn-icon" id="darkModeToggle" aria-label="تفعيل الوضع الليلي">
           <span id="themeIcon"><i class="fa-solid fa-moon"></i></span>
         </button>
-        <a href="pages/favorites.html" class="btn-icon" id="favoritesBtn" aria-label="المفضلة">
+        <a href="favorites.html" class="btn-icon" id="favoritesBtn" aria-label="المفضلة">
           <i class="fa-solid fa-heart"></i> <span class="badge" id="favBadge">0</span>
         </a>
         <button class="hamburger" id="hamburger" aria-expanded="false" aria-label="فتح القائمة">
@@ -85,7 +85,7 @@
         <p>قم باختيار سنتك الدراسية للوصول إلى الملفات الخاصة بك</p>
       </div>
       <div class="year-cards">
-        <a href="pages/year.html?year=1AS" class="year-card">
+        <a href="year.html?year=1AS" class="year-card">
           <div class="year-card-icon"><i class="fa-solid fa-book"></i></div>
           <div class="year-card-content">
             <h3>أولى ثانوي (1AS)</h3>
@@ -98,7 +98,7 @@
           <div class="year-card-arrow"><i class="fa-solid fa-arrow-left"></i></div>
         </a>
         
-        <a href="pages/year.html?year=2AS" class="year-card">
+        <a href="year.html?year=2AS" class="year-card">
           <div class="year-card-icon"><i class="fa-solid fa-book-open"></i></div>
           <div class="year-card-content">
             <h3>ثانية ثانوي (2AS)</h3>
@@ -114,7 +114,7 @@
           <div class="year-card-arrow"><i class="fa-solid fa-arrow-left"></i></div>
         </a>
 
-        <a href="pages/year.html?year=3AS" class="year-card">
+        <a href="year.html?year=3AS" class="year-card">
           <div class="year-card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
           <div class="year-card-content">
             <h3>ثالثة ثانوي (النهائي)</h3>
@@ -169,7 +169,7 @@
       <div class="footer-grid">
         <div class="footer-col">
           <a href="index.html" class="nav-logo" style="margin-bottom: 1rem; display: flex;">
-            <img src="images/logo.png" alt="EduDZ" style="height:36px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+            <img src="logo.png" alt="EduDZ" style="height:36px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
             <span class="logo-text">Edu<span class="logo-dz">DZ</span></span>
           </a>
           <p style="font-size: var(--text-sm); color: var(--text-secondary); max-width: 300px;">
@@ -180,9 +180,9 @@
           <h5>روابط سريعة</h5>
           <ul>
             <li><a href="index.html">الرئيسية</a></li>
-            <li><a href="pages/year.html?year=1AS">السنة الأولى ثانوي</a></li>
-            <li><a href="pages/year.html?year=2AS">السنة الثانية ثانوي</a></li>
-            <li><a href="pages/year.html?year=3AS">القسم النهائي (بكالوريا)</a></li>
+            <li><a href="year.html?year=1AS">السنة الأولى ثانوي</a></li>
+            <li><a href="year.html?year=2AS">السنة الثانية ثانوي</a></li>
+            <li><a href="year.html?year=3AS">القسم النهائي (بكالوريا)</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -201,6 +201,6 @@
     </div>
   </footer>
 
-  <script src="js/app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
