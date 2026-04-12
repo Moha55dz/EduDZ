@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduDZ - تفاصيل المادة</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div class="loader-overlay" id="loader" aria-hidden="true">
+    <div class="loader-content">
+      <img src="../images/logo.png" alt="EduDZ" class="loader-logo" style="height:60px; border-radius:12px; box-shadow:0 8px 16px rgba(0,0,0,0.1); background: white;">
+      <div class="loader-bar"><div class="loader-progress"></div></div>
+      <p>جاري تحميل الموارد...</p>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-logo">
+        <img src="../images/logo.png" alt="EduDZ" style="height:36px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+        <span class="logo-text">Edu<span class="logo-dz">DZ</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../index.html">الرئيسية</a></li>
+        <li><a href="year.html?year=1AS">أولى ثانوي</a></li>
+        <li><a href="year.html?year=2AS">ثانية ثانوي</a></li>
+        <li><a href="year.html?year=3AS">النهائي (بكالوريا)</a></li>
+      </ul>
+      <div class="nav-actions">
+
+        <button class="btn-icon" id="darkModeToggle" aria-label="تفعيل الوضع الليلي">
+          <span id="themeIcon"><i class="fa-solid fa-moon"></i></span>
+        </button>
+        <a href="favorites.html" class="btn-icon" id="favoritesBtn" aria-label="المفضلة">
+          <i class="fa-solid fa-heart"></i> <span class="badge" id="favBadge">0</span>
+        </a>
+        <button class="hamburger" id="hamburger" aria-expanded="false" aria-label="فتح القائمة">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Subject Header -->
+  <div class="subject-header" style="background: var(--bg-card); border-bottom: 1px solid var(--border); padding: 2rem 0; margin-bottom: 0;">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="مسار التصفح">
+        <ol>
+          <li><a href="../index.html">الرئيسية</a></li>
+          <li class="separator"><i class="fa-solid fa-chevron-left" style="font-size: 0.8em"></i></li>
+          <li><a href="#" id="bc-year">المستوى</a></li>
+          <li class="separator"><i class="fa-solid fa-chevron-left" style="font-size: 0.8em"></i></li>
+          <li><a href="#" id="bc-track">الشعبة</a></li>
+          <li class="separator"><i class="fa-solid fa-chevron-left" style="font-size: 0.8em"></i></li>
+          <li aria-current="page" id="bc-subj">المادة</li>
+        </ol>
+      </nav>
+
+      <div class="subject-header-content">
+        <div class="subject-hero-icon" id="sub-icon"><i class="fa-solid fa-book-bookmark"></i></div>
+        <div class="subject-hero-info">
+          <div class="subject-badges">
+            <span class="badge-year" id="b-year" style="display:inline-block; padding: 0.25rem 0.75rem; background:var(--bg-sidebar); border-radius:99px; font-weight:700; font-size:var(--text-sm); border:1px solid var(--border)">3AS</span>
+            <span class="badge-track" id="b-track">العلوم التجريبية</span>
+          </div>
+          <h1 id="sub-title" style="font-size: var(--text-4xl); margin-top: 0.5rem; margin-bottom: 0.5rem;">اسم المادة</h1>
+          <p id="sub-desc" style="color: var(--text-secondary); max-width: 600px;">نظرة شاملة وموارد المادة.</p>
+          <div class="subject-header-actions">
+            <button class="btn btn-primary" id="favSubjectBtn"><i class="fa-regular fa-heart"></i> أضف للمفضلة</button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Resource count stats bar -->
+      <div class="resource-stats-bar">
+        <div class="stat-pill"><i class="fa-solid fa-tv" style="margin-left:4px"></i> <span id="stat-channels">0 قنوات</span></div>
+        <div class="stat-pill"><i class="fa-solid fa-file-lines" style="margin-left:4px"></i> <span id="stat-lessons">0 دروس</span></div>
+        <div class="stat-pill"><i class="fa-solid fa-pen-to-square" style="margin-left:4px"></i> <span id="stat-exercises">0 تمارين</span></div>
+        <div class="stat-pill"><i class="fa-solid fa-chart-bar" style="margin-left:4px"></i> <span id="stat-exams">0 اختبارات</span></div>
+        <div class="stat-pill"><i class="fa-solid fa-brain" style="margin-left:4px"></i> <span id="stat-summaries">0 ملخصات</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab Navigation -->
+  <div class="tabs-wrapper" id="tabsWrapper">
+    <div class="container">
+      <div class="tabs" role="tablist">
+        <button class="tab active" data-tab="channels" role="tab" aria-selected="true">
+          <span class="tab-icon"><i class="fa-solid fa-tv"></i></span>
+          <span class="tab-label">قنوات يوتيوب</span>
+          <span class="tab-count">0</span>
+        </button>
+        <button class="tab" data-tab="lessons" role="tab" aria-selected="false">
+          <span class="tab-icon"><i class="fa-solid fa-file-lines"></i></span>
+          <span class="tab-label">دروس ومذكرات</span>
+          <span class="tab-count">0</span>
+        </button>
+        <button class="tab" data-tab="exercises" role="tab" aria-selected="false">
+          <span class="tab-icon"><i class="fa-solid fa-pen-to-square"></i></span>
+          <span class="tab-label">تمارين وسلاسل</span>
+          <span class="tab-count">0</span>
+        </button>
+        <button class="tab" data-tab="exams" role="tab" aria-selected="false">
+          <span class="tab-icon"><i class="fa-solid fa-chart-bar"></i></span>
+          <span class="tab-label">حوليات واختبارات</span>
+          <span class="tab-count">0</span>
+        </button>
+        <button class="tab" data-tab="summaries" role="tab" aria-selected="false">
+          <span class="tab-icon"><i class="fa-solid fa-brain"></i></span>
+          <span class="tab-label">ملخصات سريعة</span>
+          <span class="tab-count">0</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Tab Contents -->
+  <div class="container">
+    
+    <!-- Channels Panel -->
+    <div class="tab-panel active" id="panel-channels" role="tabpanel">
+      <div class="panel-intro">
+        <h2>قنوات يوتيوب</h2>
+        <p style="color: var(--text-secondary)">أفضل الأساتذة يشرحون منهاجك الدراسي على يوتيوب</p>
+      </div>
+      <div id="channels-container"></div>
+      
+      <div class="empty-state" style="display:none">
+        <div class="empty-icon"><i class="fa-solid fa-box-open"></i></div>
+        <h3>لم يتم العثور على قنوات</h3>
+        <p>جرب تغيير كلمات البحث الخاصة بك.</p>
+        <button class="btn btn-primary" onclick="clearSearch()" style="margin-top:1rem">إلغاء البحث</button>
+      </div>
+    </div>
+
+    <!-- Lessons Panel -->
+    <div class="tab-panel" id="panel-lessons" role="tabpanel">
+      <div class="panel-intro">
+        <h2>دروس ومذكرات</h2>
+        <p style="color: var(--text-secondary)">دورات بصيغة PDF مفصلة من مصادر موثوقة</p>
+      </div>
+      
+
+      
+      <div class="resource-list" id="list-lessons"></div>
+      
+      <div class="empty-state" style="display:none">
+        <div class="empty-icon"><i class="fa-solid fa-box-open"></i></div>
+        <h3>لا توجد نتائج مطابقة</h3>
+        <p>جرب تغيير الكلمات المفتاحية للبحث.</p>
+        <button class="btn btn-primary" onclick="clearSearch()" style="margin-top:1rem">إلغاء البحث</button>
+      </div>
+    </div>
+
+    <!-- Exercises Panel -->
+    <div class="tab-panel" id="panel-exercises" role="tabpanel">
+      <div class="panel-intro">
+        <h2>تمارين وسلاسل</h2>
+        <p style="color: var(--text-secondary)">سلاسل تمارين للتمرن من الأساسيات حتى مواضيع البكالوريا الصعبة</p>
+      </div>
+      
+
+      
+      <div class="resource-list" id="list-exercises"></div>
+      
+      <div class="empty-state" style="display:none">
+        <div class="empty-icon"><i class="fa-solid fa-box-open"></i></div>
+        <h3>لا توجد نتائج مطابقة</h3>
+        <p>جرب تغيير الكلمات المفتاحية للبحث.</p>
+        <button class="btn btn-primary" onclick="clearSearch()" style="margin-top:1rem">إلغاء البحث</button>
+      </div>
+    </div>
+
+    <!-- Exams Panel -->
+    <div class="tab-panel" id="panel-exams" role="tabpanel">
+      <div class="panel-intro">
+        <h2>حوليات واختبارات</h2>
+        <p style="color: var(--text-secondary)">مواضيع البكالوريا الرسمية السابقة واختبارات تجريبية مع الحلول</p>
+      </div>
+      <div class="resource-list" id="list-exams"></div>
+      <div class="empty-state" style="display:none">
+        <div class="empty-icon"><i class="fa-solid fa-box-open"></i></div>
+        <h3>لا توجد نتائج مطابقة</h3>
+        <p>جرب تغيير الكلمات المفتاحية للبحث.</p>
+        <button class="btn btn-primary" onclick="clearSearch()" style="margin-top:1rem">إلغاء البحث</button>
+      </div>
+    </div>
+
+    <!-- Summaries Panel -->
+    <div class="tab-panel" id="panel-summaries" role="tabpanel">
+      <div class="panel-intro">
+        <h2>مطويات وملخصات</h2>
+        <p style="color: var(--text-secondary)">أوراق وقوانين سريعة المراجعة لتسهيل الحفظ قبل الامتحانات</p>
+      </div>
+      <div class="resource-list" id="list-summaries"></div>
+      <div class="empty-state" style="display:none">
+        <div class="empty-icon"><i class="fa-solid fa-box-open"></i></div>
+        <h3>لا توجد نتائج مطابقة</h3>
+        <p>جرب تغيير الكلمات المفتاحية للبحث.</p>
+        <button class="btn btn-primary" onclick="clearSearch()" style="margin-top:1rem">إلغاء البحث</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="../index.html" class="nav-logo" style="margin-bottom: 1rem; display: flex;">
+            <img src="../images/logo.png" alt="EduDZ" style="height:36px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);"><span class="logo-text">Edu<span class="logo-dz">DZ</span></span>
+          </a>
+          <p style="font-size: var(--text-sm); color: var(--text-secondary); max-width: 300px;">
+            المنصة التعليمية المثلى لتلاميذ الطور الثانوي في الجزائر.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h5>روابط سريعة</h5>
+          <ul>
+            <li><a href="../index.html">الرئيسية</a></li>
+            <li><a href="year.html?year=1AS">السنة الأولى ثانوي</a></li>
+            <li><a href="year.html?year=2AS">السنة الثانية ثانوي</a></li>
+            <li><a href="year.html?year=3AS">القسم النهائي (بكالوريا)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p dir="ltr">© 2026 EduDZ — Built for Algerian Students</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/app.js"></script>
+</body>
+</html>
