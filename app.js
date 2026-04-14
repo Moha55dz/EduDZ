@@ -85,7 +85,7 @@ const TRACKS_2AS = {
     icon: '<i class="fa-solid fa-book-open"></i>',
     color: "#D97706",
     description: "الأدب العربي، الفلسفة، والعلوم الإنسانية",
-    subjects: ["Arabic", "Philosophy", "History & Geography", "Physics", "Science", "French", "English", "Islamic Studies"]
+    subjects: ["Arabic", "Philosophy", "History & Geography", "Physics", "Science", "French", "English", "Islamic Studies", "Math"]
   },
   "Languages": {
     icon: '<i class="fa-solid fa-earth-africa"></i>',
@@ -224,15 +224,44 @@ const SUBJECTS = {
   }
 };
 
+const MASTER_CHANNELS = {
+  "Math": [
+    { id: "ch-math-n", title: "الأستاذ نور الدين", desc: "أكبر مرجع لمادة الرياضيات في الجزائر - جميع الوحدات والبكالوريات", meta: '<i class="fa-solid fa-video"></i> +300 فيديو • <i class="fa-solid fa-star" style="color: gold"></i> 5.0', name: "ن", bg: "#DC2626", url: "https://youtube.com/@noureddine2013?si=pZLJoUBj08L4bQ8t" },
+    { id: "ch-math-a", title: "أكاديمية الرياضيات", desc: "دروس مبسطة وتمارين متنوعة لجميع مستويات الثانوي", meta: '<i class="fa-solid fa-video"></i> +150 فيديو', name: "أ", bg: "#2563EB", url: "https://youtube.com/channel/UCnMzRcYSang1SXOZLH77ljw?si=9cHHjw7LIfv1oGjf" },
+    { id: "ch-math-w", title: "الأستاذ وليد بومرزوق", desc: "شرح دقيق وحلول مفصلة للسلاسل التدريبية المكثفة", meta: '<i class="fa-solid fa-video"></i> +120 فيديو', name: "و", bg: "#059669", url: "https://youtube.com/@maths07-walidboumerzoug?si=nN-DCWen_d5o0Uwn" }
+  ],
+  "Physics": [
+    { id: "ch-phys-a", title: "الأستاذ عبد اللطيف", desc: "دروس شاملة مع التركيز على المنهجية الصحيحة لحل التمارين", meta: '<i class="fa-solid fa-video"></i> +180 فيديو', name: "ع", bg: "#7C3AED", url: "https://youtube.com/@abdelatif_phydz?si=_o7_p5qiII6Lb9h4" },
+    { id: "ch-phys-s", title: "الأستاذ سيف الله", desc: "تبسيط مفاهيم الفيزياء مع مراجعات نهائية شاملة", meta: '<i class="fa-solid fa-video"></i> +100 فيديو', name: "س", bg: "#0EA5E9", url: "https://youtube.com/@prof_seif_allah?si=mI4BoLfrmG9JjRoP" },
+    { id: "ch-phys-l", title: "الأستاذ لطفي أنور فراجي", desc: "شرح الفيزياء بطرق حديثة تساعد على الاستيعاب السريع", meta: '<i class="fa-solid fa-video"></i> +90 فيديو', name: "ل", bg: "#D97706", url: "https://youtube.com/@lotfianouarferradji?si=CDa5l85MpFFDDrFn" }
+  ],
+  "Science": [
+    { id: "ch-sci-k", title: "الأستاذ كتفي شريف زينة", desc: "شرح معمق لدروس العلوم الطبيعية وحلول البكالوريات", meta: '<i class="fa-solid fa-video"></i> +200 فيديو', name: "ك", bg: "#16A34A", url: "https://youtube.com/@prof-ketfi.cherif-zina?si=ll1KEuLSGf3qMnc3" },
+    { id: "ch-sci-i", title: "إكرام للعلوم الطبيعية", desc: "ملخصات دروس منظمة وسهلة الحفظ لجميع المستويات", meta: '<i class="fa-solid fa-video"></i> +110 فيديو', name: "إ", bg: "#DC2626", url: "https://youtube.com/@ikramscience8424?si=faKi3x2sFsgsyB10" },
+    { id: "ch-sci-c", title: "الأستاذ شاوش", desc: "منهجية الإجابة وشرح آليات التركيب والمناعة والجيولوجيا", meta: '<i class="fa-solid fa-video"></i> +140 فيديو', name: "ش", bg: "#059669", url: "https://youtube.com/@profchaouch?si=CgyxsbYUgZErOmP5" }
+  ],
+  "History & Geography": [
+    { id: "ch-hg-s", title: "قناة الاجتماعيات", desc: "طرق مبتكرة لحفظ التواريخ والمصطلحات والخرائط", meta: '<i class="fa-solid fa-video"></i> +150 فيديو', name: "ا", bg: "#D97706", url: "https://youtube.com/channel/UCeyN7ipOQs6Ld4jEIMFAaKw?si=hF_Kp38LPF1jHzHW" },
+    { id: "ch-hg-k", title: "الأستاذ عبد النور خليفي", desc: "أفضل شروحات الاجتماعيات لطلاب البكالوريا بطريقة ممتعة", meta: '<i class="fa-solid fa-video"></i> +200 فيديو', name: "ع", bg: "#2563EB", url: "https://youtube.com/@abdennourkhalifi?si=om9R64i0llChKRgm" }
+  ],
+  "English": [
+    { id: "ch-eng-r", title: "الأستاذ عبد الرحيم", desc: "قواعد اللغة الإنجليزية وحل مواضيع البكالوريا لجميع الشعب", meta: '<i class="fa-solid fa-video"></i> +130 فيديو', name: "ر", bg: "#0EA5E9", url: "https://youtube.com/@english-tutor-abderrahim?si=pK0GQoc86uwKoEHU" },
+    { id: "ch-eng-n", title: "Miss Nassima", desc: "دروس إنجليزية مبسطة مع التركيز على كتابة التعبير", meta: '<i class="fa-solid fa-video"></i> +150 فيديو', name: "ن", bg: "#7C3AED", url: "https://youtube.com/@missnassima?si=rwMjOSVVorMLVN9S" },
+    { id: "ch-eng-a", title: "Amin English", desc: "شروحات وافية ومراجعات نهائية بأسلوب حديث", meta: '<i class="fa-solid fa-video"></i> +140 فيديو', name: "أ", bg: "#059669", url: "https://youtube.com/@aminenglish?si=MaHt_qlZJXOazK6f" }
+  ],
+  "French": [
+    { id: "ch-fr-n", title: "النجاح في الفرنسية", desc: "تبسيط قواعد اللغة الفرنسية وتدريبات على فهم النصوص", meta: '<i class="fa-solid fa-video"></i> +120 فيديو', name: "ن", bg: "#DC2626", url: "https://youtube.com/@profelnajahh?si=TTo_v8SPuzRscqy7" }
+  ],
+  "Arabic": [
+    { id: "ch-ar-m", title: "الأستاذ مبروك بوبكر", desc: "كنز في اللغة العربية، البلاغة، القواعد وتحليل النصوص", meta: '<i class="fa-solid fa-video"></i> +300 فيديو', name: "م", bg: "#D97706", url: "https://youtube.com/@mabrouk_boubaker?si=fymkVcjpqtr7wDNS" },
+    { id: "ch-ar-d", title: "لغة الضاد", desc: "تخصص في تبسيط الأدب العربي وقواعده للثانوي", meta: '<i class="fa-solid fa-video"></i> +100 فيديو', name: "ض", bg: "#16A34A", url: "https://youtube.com/channel/UCEpuRLQpVVre6nwaV6cRjrw?si=CxTMFQzd-NTSiWNu" },
+    { id: "ch-ar-h", title: "الأستاذ حيقون", desc: "حلول البكالوريا ومنهجية الإجابة الخاصة بمادة اللغة العربية", meta: '<i class="fa-solid fa-video"></i> +180 فيديو', name: "ح", bg: "#2563EB", url: "https://www.youtube.com/@prof_haigoune" }
+  ]
+};
+
 const RESOURCES = {
   "3AS-Sciences-Math": {
-    channels: [
-      { id: "ch-math-dz", title: "الأستاذ نور الدين", desc: "تغطية كاملة لمنهاج الرياضيات للنهائي مع حلول للبكالوريا", meta: '<i class="fa-solid fa-video"></i> +240 فيديو • <i class="fa-solid fa-star" style="color: gold"></i> تقييم ممتاز', name: "ن", bg: "#DC2626" },
-      { id: "ch-bac-alg", title: "البكالوريا في الجيب", desc: "تحضير مكثف للبكالوريا مع مواضيع مقترحة", meta: '<i class="fa-solid fa-video"></i> +150 فيديو • <i class="fa-solid fa-star" style="color: gold"></i> 4.9/5', name: "ب", bg: "#2563EB" },
-      { id: "ch-math-3as", title: "رياضيات ثالثة ثانوي", desc: "فيديوهات قصيرة وحيل رياضياتية للبكالوريا", meta: '<i class="fa-solid fa-video"></i> +110 فيديو', name: "ر", bg: "#059669" },
-      { id: "ch-rev-bac", title: "مراجعة شاملة بكالوريا", desc: "ملخصات سريعة ومراجعة ليلة الامتحان", meta: '<i class="fa-solid fa-video"></i> +80 فيديو', name: "م", bg: "#D97706" },
-      { id: "ch-ex-math", title: "أكاديمية الرياضيات", desc: "أفكار متقدمة وحل تمارين صعبة ومنهجية الإجابة", meta: '<i class="fa-solid fa-video"></i> +200 فيديو', name: "أ", bg: "#7C3AED" }
-    ],
+    channels: [], // Will be auto-injected from MASTER_CHANNELS
     lessons: [
       { id: "les-seq", title: "الوحدة 1 — المتتاليات العددية", desc: "المتتاليات الحسابية، الهندسية، النهايات والاستدلال بالتراجع", chapter: "algebra", date: "أكتوبر 2024", size: "2.4 MB" },
       { id: "les-lim", title: "الوحدة 2 — النهايات والاستمرارية", desc: "نظرية القيم المتوسطة، الاستمرارية، والمقاربات", chapter: "calculus", date: "أكتوبر 2024", size: "1.8 MB" },
@@ -782,8 +811,28 @@ function initSubjectPage() {
   const dKey = `${year}-${track}-${subject}`;
   let data = RESOURCES[dKey];
   if (!data && year === '3AS' && track === 'Sciences' && subject === 'Math') data = RESOURCES["3AS-Sciences-Math"];
+  
   if (!data) {
      data = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+  }
+
+  // Auto-inject channels from MASTER_CHANNELS if empty or for "all شعب" consistency
+  const masterKey = (subject === "Math") ? "Math" : 
+                    (subject === "Physics") ? "Physics" :
+                    (subject === "Science" || subject === "Biology") ? "Science" :
+                    (subject === "History & Geography") ? "History & Geography" :
+                    (subject === "English") ? "English" :
+                    (subject === "French") ? "French" :
+                    (subject === "Arabic") ? "Arabic" : null;
+
+  if (masterKey && MASTER_CHANNELS[masterKey]) {
+      // Merge: unique by id
+      const existingIds = new Set(data.channels.map(c => c.id));
+      MASTER_CHANNELS[masterKey].forEach(ch => {
+          if (!existingIds.has(ch.id)) {
+              data.channels.push(ch);
+          }
+      });
   }
   
   const catNames = {
@@ -824,14 +873,13 @@ function renderResourceList(cat, items, color) {
           <div class="channel-avatar" style="background: ${c.bg}">${c.name}</div>
           <div class="platform-badge"><i class="fa-brands fa-youtube" style="margin-right:4px;"></i>يوتيوب</div>
         </div>
-        <div class="channel-info">
-          <h3 class="channel-name">${c.title}</h3>
-          <p class="channel-desc">${c.desc}</p>
-          <div class="channel-meta" style="white-space: pre;">${c.meta}</div>
+        <div class="channel-info" style="text-align: center; padding-bottom: 0;">
+          <h3 class="channel-name" style="margin-bottom: 1.5rem; font-size: var(--text-xl);">${c.title}</h3>
         </div>
-        <div class="channel-actions">
-          <button class="btn-favorite-sm" data-id="${c.id}" data-icon-only="true" aria-label="أضف للمفضلة"><i class="fa-regular fa-heart"></i></button>
-          <a href="#" target="_blank" rel="noopener" class="btn btn-primary btn-sm" style="background: ${color}">زيارة القناة <i class="fa-solid fa-arrow-left" style="margin-right:6px"></i></a>
+        <div class="channel-actions" style="justify-content: center; border-top: none; padding-top: 0;">
+          <a href="${c.url || '#'}" target="_blank" rel="noopener" class="btn btn-primary btn-sm" style="background: ${color}; width: 100%; justify-content: center;">
+            زيارة القناة <i class="fa-solid fa-arrow-left" style="margin-right:6px"></i>
+          </a>
         </div>
       </div>`;
     });
@@ -842,45 +890,118 @@ function renderResourceList(cat, items, color) {
     const listEl = document.getElementById(`list-${cat}`);
     if (!listEl) return;
     
+    // Default icons
+    let icon = '<i class="fa-solid fa-file-lines"></i>';
+    if(cat === 'exercises') icon = '<i class="fa-solid fa-pen-to-square"></i>';
+    if(cat === 'exams') icon = '<i class="fa-solid fa-chart-bar"></i>';
+    if(cat === 'summaries') icon = '<i class="fa-solid fa-brain"></i>';
+
+    // SPECIAL HANDLING FOR EXAMS — ORGANIZED BY TERM
+    if (cat === 'exams') {
+      const { year } = getParams();
+      const term1 = [], term2 = [], term3 = [], official = [], general = [];
+
+      items.forEach(i => {
+        const title = i.title.toLowerCase();
+        const id = i.id.toLowerCase();
+        
+        if (title.includes('بكالوريا') || id.includes('bac')) official.push(i);
+        else if (title.includes('الأول') || id.includes('tr1')) term1.push(i);
+        else if (title.includes('الثاني') || id.includes('tr2')) term2.push(i);
+        else if (title.includes('الثالث') || id.includes('tr3')) term3.push(i);
+        else general.push(i);
+      });
+
+      let examsHtml = '';
+      
+      // Official Baccalaureate Section (for 3AS)
+      if (year === '3AS' || official.length > 0) {
+        examsHtml += `<div class="term-section">
+          <div class="term-header"><h3>الحوليات الرسمية</h3></div>
+          ${official.length > 0 ? official.map(i => renderItem(i, cat, icon, color)).join('') : renderEmptyTerm("لا توجد حوليات رسمية متوفرة حالياً لهذه المادة.")}
+        </div>`;
+      }
+
+      // Term 1
+      examsHtml += `<div class="term-section">
+        <div class="term-header"><h3>الفصل الأول</h3></div>
+        ${term1.length > 0 ? term1.map(i => renderItem(i, cat, icon, color)).join('') : renderEmptyTerm("لا توجد اختبارات متوفرة للفصل الأول حالياً.")}
+      </div>`;
+
+      // Term 2
+      examsHtml += `<div class="term-section">
+        <div class="term-header"><h3>الفصل الثاني</h3></div>
+        ${term2.length > 0 ? term2.map(i => renderItem(i, cat, icon, color)).join('') : renderEmptyTerm("لا توجد اختبارات متوفرة للفصل الثاني حالياً.")}
+      </div>`;
+
+      // Term 3
+      examsHtml += `<div class="term-section">
+        <div class="term-header"><h3>الفصل الثالث</h3></div>
+        ${term3.length > 0 ? term3.map(i => renderItem(i, cat, icon, color)).join('') : renderEmptyTerm("لا توجد اختبارات متوفرة للفصل الثالث حالياً.")}
+      </div>`;
+
+      // General / Others
+      if (general.length > 0) {
+        examsHtml += `<div class="term-section">
+          <div class="term-header"><h3>أخرى</h3></div>
+          ${general.map(i => renderItem(i, cat, icon, color)).join('')}
+        </div>`;
+      }
+
+      listEl.innerHTML = examsHtml;
+      return;
+    }
+
+    // Standard list for lessons, exercises, summaries
     if (items.length === 0) {
       listEl.innerHTML = `<p style="padding: 2rem; text-align:center;">لا توجد موارد متوفرة في هذا القسم حاليا.</p>`;
       return;
     }
     
-    let icon = '<i class="fa-solid fa-file-lines"></i>';
-    if(cat === 'exercises') icon = '<i class="fa-solid fa-pen-to-square"></i>';
-    if(cat === 'exams') icon = '<i class="fa-solid fa-chart-bar"></i>';
-    if(cat === 'summaries') icon = '<i class="fa-solid fa-brain"></i>';
-    
+    let html = '';
     items.forEach(i => {
-      let cap = "";
-      if (i.chapter === 'algebra') cap = 'الجبر / المتتاليات / الأعداد المركبة';
-      else if (i.chapter === 'calculus') cap = 'الدوال / الاشتقاقية / النهايات';
-      else if (i.chapter === 'stats') cap = 'الإحصاء / الاحتمالات';
-      else if (i.chapter === 'all') cap = 'شامل';
-      else cap = i.chapter;
-
-      html += `
-      <div class="resource-item" data-chapter="${i.chapter}">
-        <div class="resource-icon" style="color: ${color}">${icon}</div>
-        <div class="resource-info">
-          <h4>${i.title}</h4>
-          <p>${i.desc}</p>
-          <div class="resource-meta">
-            <span class="tag tag-chapter" style="background: ${color}20; color: ${color}">${cap}</span>
-            <span class="resource-date"><i class="fa-solid fa-calendar-days"></i> ${i.date}</span>
-            <span class="resource-size" dir="ltr"><i class="fa-solid fa-file-pdf"></i> ${i.size}</span>
-          </div>
-        </div>
-        <div class="resource-actions">
-          <button class="btn-favorite-sm" data-id="${i.id}" data-icon-only="true" aria-label="أضف للمفضلة"><i class="fa-regular fa-heart"></i></button>
-          <button class="btn btn-ghost btn-sm" onclick="viewResource(this)"><i class="fa-solid fa-eye"></i> معاينة</button>
-          <a href="#" class="btn btn-primary btn-sm" style="background: ${color}"><i class="fa-solid fa-download"></i> تحميل</a>
-        </div>
-      </div>`;
+      html += renderItem(i, cat, icon, color);
     });
     listEl.innerHTML = html;
   }
+}
+
+// Helper to render a single resource item
+function renderItem(i, cat, icon, color) {
+  let cap = "";
+  if (i.chapter === 'algebra') cap = 'الجبر / المتتاليات / الأعداد المركبة';
+  else if (i.chapter === 'calculus') cap = 'الدوال / الاشتقاقية / النهايات';
+  else if (i.chapter === 'stats') cap = 'الإحصاء / الاحتمالات';
+  else if (i.chapter === 'all') cap = 'شامل';
+  else cap = i.chapter;
+
+  return `
+  <div class="resource-item" data-chapter="${i.chapter}">
+    <div class="resource-icon" style="color: ${color}">${icon}</div>
+    <div class="resource-info">
+      <h4>${i.title}</h4>
+      <p>${i.desc}</p>
+      <div class="resource-meta">
+        <span class="tag tag-chapter" style="background: ${color}20; color: ${color}">${cap}</span>
+        <span class="resource-date"><i class="fa-solid fa-calendar-days"></i> ${i.date}</span>
+        <span class="resource-size" dir="ltr"><i class="fa-solid fa-file-pdf"></i> ${i.size}</span>
+      </div>
+    </div>
+    <div class="resource-actions">
+      <button class="btn-favorite-sm" data-id="${i.id}" data-icon-only="true" aria-label="أضف للمفضلة"><i class="fa-regular fa-heart"></i></button>
+      <button class="btn btn-ghost btn-sm" onclick="viewResource(this)"><i class="fa-solid fa-eye"></i> معاينة</button>
+      <a href="#" class="btn btn-primary btn-sm" style="background: ${color}"><i class="fa-solid fa-download"></i> تحميل</a>
+    </div>
+  </div>`;
+}
+
+// Helper to render an empty term placeholder
+function renderEmptyTerm(msg) {
+  return `
+  <div class="term-empty-card">
+    <div class="term-empty-icon"><i class="fa-solid fa-folder-open"></i></div>
+    <p>${msg}</p>
+  </div>`;
 }
 
 function initFavoritesPage() {
