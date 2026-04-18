@@ -288,8 +288,50 @@ const RESOURCES = {
       { id: "sum-lim", title: "حيل: إزالة حالات عدم التعيين", desc: "أهم الطرق السريعة لإزالة عدم التعيين في النهايات", chapter: "calculus", date: "نوفمبر 2024", size: "0.8 MB" },
       { id: "sum-com", title: "المختصر في الأعداد المركبة", desc: "دليل مرئي للخواص الهندسية للأعداد المركبة", chapter: "algebra", date: "جانفي 2025", size: "1.1 MB" }
     ]
+  },
+  "2AS-Sciences-Math": {
+    channels: [],
+    lessons: [],
+    exercises: [],
+    exams: [
+      { id: "2as-math-tr3-01", title: "اختبار الرياضيات الفصل الثالث - نموذج 1", desc: "نموذج اختبار مقترح للفصل الدراسي الثالث مع حلول مفصلة", chapter: "all", date: "أفريل 2024", size: "1.3 MB", url: "exams/سنة ثانية/الفصل الثالث/رياضيات/dzexams-2as-mathematiques-1381697.pdf" },
+      { id: "2as-math-tr3-02", title: "اختبار الرياضيات الفصل الثالث - نموذج 2", desc: "مراجعة شاملة لدروس الفصل الثالث تحضيراً للامتحان", chapter: "all", date: "أفريل 2024", size: "0.3 MB", url: "exams/سنة ثانية/الفصل الثالث/رياضيات/dzexams-2as-mathematiques-291336.pdf" },
+      { id: "2as-math-tr3-03", title: "اختبار الرياضيات الفصل الثالث - نموذج 3", desc: "تمارين مختارة من اختبارات سابقة للفصل الثالث", chapter: "all", date: "أفريل 2024", size: "0.4 MB", url: "exams/سنة ثانية/الفصل الثالث/رياضيات/dzexams-2as-mathematiques-439919.pdf" }
+    ],
+    summaries: []
   }
 };
+
+RESOURCES["2AS-Math-Math"] = RESOURCES["2AS-Sciences-Math"];
+RESOURCES["2AS-Technical Math-Math"] = RESOURCES["2AS-Sciences-Math"];
+
+RESOURCES["2AS-Sciences-Science"] = {
+  channels: [],
+  lessons: [],
+  exercises: [],
+  exams: [
+    { id: "2as-sci-tr3-01", title: "اختبار العلوم الطبيعية الفصل الثالث - نموذج 1", desc: "اختبار شامل حول دروس الجيولوجيا والآليات العصبية للهرمونات", chapter: "all", date: "ماي 2024", size: "0.4 MB", url: "exams/سنة ثانية/الفصل الثالث/علوم/علوم تجريبية/dzexams-2as-sciences-naturelles-456795.pdf" },
+    { id: "2as-sci-tr3-02", title: "اختبار العلوم الطبيعية الفصل الثالث - نموذج 2", desc: "نموذج اختبار ثانٍ يركز على الوحدات المدروسة في الفترة الأخيرة", chapter: "all", date: "ماي 2024", size: "0.5 MB", url: "exams/سنة ثانية/الفصل الثالث/علوم/علوم تجريبية/dzexams-2as-sciences-naturelles-561345.pdf" },
+    { id: "2as-sci-tr3-03", title: "اختبار العلوم الطبيعية الفصل الثالث - نموذج 3", desc: "تمارين مختارة مع تصحيح للمقترحات الخاصة بنهاية السنة", chapter: "all", date: "ماي 2024", size: "0.8 MB", url: "exams/سنة ثانية/الفصل الثالث/علوم/علوم تجريبية/dzexams-2as-sciences-naturelles-790197.pdf" }
+  ],
+  summaries: []
+};
+
+RESOURCES["2AS-Sciences-Physics"] = {
+  channels: [],
+  lessons: [],
+  exercises: [],
+  exams: [
+    { id: "2as-phys-tr3-01", title: "اختبار الفيزياء الفصل الثالث - نموذج 1", desc: "اختبار شامل حول الكيمياء العضوية والظواهر الضوئية", chapter: "all", date: "ماي 2024", size: "1.2 MB", url: "exams/سنة ثانية/الفصل الثالث/فيزياء/dzexams-2as-physique-1275848.pdf" },
+    { id: "2as-phys-tr3-02", title: "اختبار الفيزياء الفصل الثالث - نموذج 2", desc: "نموذج اختبار ثانٍ يركز على الوحدات المدروسة في الفترة الأخيرة", chapter: "all", date: "ماي 2024", size: "0.2 MB", url: "exams/سنة ثانية/الفصل الثالث/فيزياء/dzexams-2as-physique-205927.pdf" },
+    { id: "2as-phys-tr3-03", title: "اختبار الفيزياء الفصل الثالث - نموذج 3", desc: "تمارين مختارة مع تصحيح للمقترحات الخاصة بنهاية السنة", chapter: "all", date: "ماي 2024", size: "0.2 MB", url: "exams/سنة ثانية/الفصل الثالث/فيزياء/dzexams-2as-physique-240574.pdf" }
+  ],
+  summaries: []
+};
+
+RESOURCES["2AS-Math-Physics"] = RESOURCES["2AS-Sciences-Physics"];
+RESOURCES["2AS-Technical Math-Physics"] = RESOURCES["2AS-Sciences-Physics"];
+
 
 
 // ============================================================
@@ -989,8 +1031,8 @@ function renderItem(i, cat, icon, color) {
     </div>
     <div class="resource-actions">
       <button class="btn-favorite-sm" data-id="${i.id}" data-icon-only="true" aria-label="أضف للمفضلة"><i class="fa-regular fa-heart"></i></button>
-      <button class="btn btn-ghost btn-sm" onclick="viewResource(this)"><i class="fa-solid fa-eye"></i> معاينة</button>
-      <a href="#" class="btn btn-primary btn-sm" style="background: ${color}"><i class="fa-solid fa-download"></i> تحميل</a>
+      <a href="${i.url || '#'}" target="_blank" class="btn btn-ghost btn-sm" onclick="viewResource(this)"><i class="fa-solid fa-eye"></i> معاينة</a>
+      <a href="${i.url || '#'}" download class="btn btn-primary btn-sm" style="background: ${color}"><i class="fa-solid fa-download"></i> تحميل</a>
     </div>
   </div>`;
 }
