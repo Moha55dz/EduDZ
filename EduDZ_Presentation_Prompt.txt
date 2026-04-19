@@ -1,0 +1,41 @@
+You are an expert presentation designer and copywriter. I need you to create a compelling, highly professional presentation for my project, "EduDZ" (StudyHub DZ).
+
+### The Project: EduDZ
+EduDZ is a comprehensive, centralized educational web platform specifically designed for Algerian high school students (1st, 2nd, and 3rd year / Baccalaureate). It provides structured access to lessons, detailed exercises, summaries, past exams, and curated YouTube video links—all tailored to the official Algerian curriculum and modernized with a sleek, Arabic-localized (RTL) interface. 
+
+### Instructions for the Presentation Structure
+
+**Slide 1: Title Slide**
+- Project Name: EduDZ - The Ultimate Algerian High School Educational Platform
+- Catchphrase: "Study Smarter, Enter the Baccalaureate Stronger."
+
+**Slides 2 & 3: The Problem We Are Solving (Crucial)**
+*These first slides must powerfully describe the problems Algerian students face today.*
+- Fragmentation: Educational resources (PDFs, exercises, solutions, videos) are scattered across multiple Facebook groups, random Google Drive links, and disorganized websites.
+- Wasted Time: Students spend hours searching for the right materials for their specific year and track (e.g., Experimental Sciences vs. Mathematics) instead of studying.
+- Lack of Localization & UI/UX: Existing platforms are often outdated, clunky, or lack a modern, student-friendly interface. There is a strong need for a premium, culturally relevant, Modern Standard Arabic UI that supports both light and dark modes to reduce eye strain.
+- Baccalaureate Pressure: Access to past Baccalaureate exams with model solutions is often fragmented, adding to the anxiety of final-year students (3AS).
+
+**Slide 4: The Solution (EduDZ)**
+- Introduce EduDZ as the elegant, one-stop solution.
+- Emphasize how it categorizes over 1000+ resources perfectly by Year (1AS, 2AS, 3AS), Track (Science, Math, Tech, Literature, Languages), and Subject.
+
+**Slide 5: Key Features**
+Highlight the following core features:
+1. Intelligent Navigation: Seamlessly structured pathways from Year -> Track -> Subject -> Resources.
+2. Resource Diversity: Dedicated tabs for Lessons, Exercises with Solutions, Summaries, and top YouTube channels for each subject.
+3. Dedicated Baccalaureate Hub: Isolated, focused environment for 3AS students containing past exam subjects and solutions.
+4. "Favorites" System: Enables students to save subjects for quick, one-click access later.
+5. Modern Aesthetics: Fast, responsive, built-in light/dark theme toggle, and a beautiful UI designed carefully for the Algerian context.
+
+**Slide 6: Target Audience & Impact**
+- Primary: High school students in Algeria seeking academic excellence (especially Baccalaureate candidates).
+- Secondary: Teachers and parents looking for reliable, organized materials.
+- Impact: Democratizing high-quality education, reducing stress during exam prep, and centralizing knowledge.
+
+**Slide 7: Conclusion & Call to Action**
+- Summary of why EduDZ is the future of e-learning in Algeria.
+- A strong closing statement.
+
+**Format Requirements:**
+Please output the presentation in a slide-by-slide structure. Provide the speaker notes (the script I should say) and the slide content (text/bullet points that should appear on the screen). Maintain an inspiring, professional, and persuasive tone.
