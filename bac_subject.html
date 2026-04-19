@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EduDZ - تفاصيل المستوى</title>
+  <title>EduDZ - تفاصيل المادة</title>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
@@ -15,7 +15,7 @@
     <div class="loader-content">
       <img src="logo.png" alt="EduDZ" class="loader-logo" style="height:60px; border-radius:12px; box-shadow:0 8px 16px rgba(0,0,0,0.1); background: white;">
       <div class="loader-bar"><div class="loader-progress"></div></div>
-      <p>جاري التحميل...</p>
+      <p>جاري تحميل الموارد...</p>
     </div>
   </div>
 
@@ -48,35 +48,73 @@
     </div>
   </nav>
 
-  <!-- Page Header -->
-  <div class="page-header">
+  <!-- Subject Header -->
+  <div class="subject-header" style="background: var(--bg-card); border-bottom: 1px solid var(--border); padding: 2rem 0; margin-bottom: 0;">
     <div class="container">
       <nav class="breadcrumb" aria-label="مسار التصفح">
         <ol>
           <li><a href="index.html">الرئيسية</a></li>
           <li class="separator"><i class="fa-solid fa-chevron-left" style="font-size: 0.8em"></i></li>
-          <li aria-current="page" id="bc-year">3AS</li>
+          <li><a href="#" id="bc-year">المستوى</a></li>
+          <li class="separator"><i class="fa-solid fa-chevron-left" style="font-size: 0.8em"></i></li>
+          <li><a href="#" id="bc-track">الشعبة</a></li>
+          <li class="separator"><i class="fa-solid fa-chevron-left" style="font-size: 0.8em"></i></li>
+          <li aria-current="page" id="bc-subj">المادة</li>
         </ol>
       </nav>
-      
-      <div class="page-header-content">
-        <div class="year-badge" id="pageBadge">3AS</div>
-        <h1 id="pageTitle">القسم النهائي</h1>
-        <p id="pageDesc" style="color: var(--text-secondary); max-width: 600px;">
-          التحضير لشهادة البكالوريا
-        </p>
+
+      <div class="subject-header-content">
+        <div class="subject-hero-icon" id="sub-icon"><i class="fa-solid fa-book-bookmark"></i></div>
+        <div class="subject-hero-info">
+          <div class="subject-badges">
+            <span class="badge-year" id="b-year" style="display:inline-block; padding: 0.25rem 0.75rem; background:var(--bg-sidebar); border-radius:99px; font-weight:700; font-size:var(--text-sm); border:1px solid var(--border)">3AS</span>
+            <span class="badge-track" id="b-track">العلوم التجريبية</span>
+          </div>
+          <h1 id="sub-title" style="font-size: var(--text-4xl); margin-top: 0.5rem; margin-bottom: 0.5rem;">اسم المادة</h1>
+          <p id="sub-desc" style="color: var(--text-secondary); max-width: 600px;">نظرة شاملة وموارد المادة.</p>
+          <div class="subject-header-actions">
+            <button class="btn btn-primary" id="favSubjectBtn"><i class="fa-regular fa-heart"></i> أضف للمفضلة</button>
+          </div>
+        </div>
       </div>
+      
+
     </div>
   </div>
 
-  <!-- Tracks Section -->
-  <section class="tracks-section" style="padding-bottom: 5rem;">
+  <!-- Tab Navigation -->
+  <div class="tabs-wrapper" id="tabsWrapper">
     <div class="container">
-      <div class="auto-grid" id="tracksContainer" style="--min-col: 280px; gap: 2rem;">
-        <!-- Injected via JS -->
+      <div class="tabs" role="tablist">
+        <button class="tab active" data-tab="exams" role="tab" aria-selected="true">
+          <span class="tab-icon"><i class="fa-solid fa-chart-bar"></i></span>
+          <span class="tab-label">امتحانات البكالوريا</span>
+          <span class="tab-count">0</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Tab Contents -->
+  <div class="container">
+    
+    <!-- Exams Panel -->
+    <div class="tab-panel active" id="panel-exams" role="tabpanel">
+      <div class="panel-intro">
+        <h2>امتحانات البكالوريا</h2>
+        <p style="color: var(--text-secondary)">مواضيع البكالوريا الرسمية السابقة واختبارات تجريبية مع الحلول</p>
+      </div>
+      <div class="resource-list" id="list-exams"></div>
+      <div class="empty-state" style="display:none">
+        <div class="empty-icon"><i class="fa-solid fa-box-open"></i></div>
+        <h3>لا توجد نتائج مطابقة</h3>
+        <p>لم تتم إضافة الامتحانات بعد.</p>
+        <button class="btn btn-primary" onclick="clearSearch()" style="margin-top:1rem; display:none;">إلغاء البحث</button>
       </div>
     </div>
-  </section>
+
+  </div>
 
   <!-- Footer -->
   <footer class="footer">

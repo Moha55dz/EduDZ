@@ -335,6 +335,1689 @@ RESOURCES["2AS-Technical Math-Physics"] = RESOURCES["2AS-Sciences-Physics"];
 
 
 // ============================================================
+
+// AUTO INJECTED BAC EXAMS
+if (!RESOURCES['3AS-Literature-Islamic Studies']) RESOURCES['3AS-Literature-Islamic Studies'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Literature-Islamic Studies'].exams.push(...[
+  {
+    "id": "bac-bac-tarbia-islamia-1126129",
+    "title": "موضوع بكالوريا - bac tarbia islamia 1126129",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/اسلامية/dzexams-bac-tarbia-islamia-1126129.pdf"
+  },
+  {
+    "id": "bac-bac-tarbia-islamia-1672301",
+    "title": "موضوع بكالوريا - bac tarbia islamia 1672301",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/اسلامية/dzexams-bac-tarbia-islamia-1672301.pdf"
+  },
+  {
+    "id": "bac-bac-tarbia-islamia-789338",
+    "title": "موضوع بكالوريا - bac tarbia islamia 789338",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/اسلامية/dzexams-bac-tarbia-islamia-789338.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Languages-Islamic Studies']) RESOURCES['3AS-Languages-Islamic Studies'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Languages-Islamic Studies'].exams.push(...[
+  {
+    "id": "bac-bac-tarbia-islamia-1126129",
+    "title": "موضوع بكالوريا - bac tarbia islamia 1126129",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/اسلامية/dzexams-bac-tarbia-islamia-1126129.pdf"
+  },
+  {
+    "id": "bac-bac-tarbia-islamia-1672301",
+    "title": "موضوع بكالوريا - bac tarbia islamia 1672301",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/اسلامية/dzexams-bac-tarbia-islamia-1672301.pdf"
+  },
+  {
+    "id": "bac-bac-tarbia-islamia-789338",
+    "title": "موضوع بكالوريا - bac tarbia islamia 789338",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/اسلامية/dzexams-bac-tarbia-islamia-789338.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Management-Islamic Studies']) RESOURCES['3AS-Management-Islamic Studies'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Management-Islamic Studies'].exams.push(...[
+  {
+    "id": "bac-bac-tarbia-islamia-1126129",
+    "title": "موضوع بكالوريا - bac tarbia islamia 1126129",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/اسلامية/dzexams-bac-tarbia-islamia-1126129.pdf"
+  },
+  {
+    "id": "bac-bac-tarbia-islamia-1672301",
+    "title": "موضوع بكالوريا - bac tarbia islamia 1672301",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/اسلامية/dzexams-bac-tarbia-islamia-1672301.pdf"
+  },
+  {
+    "id": "bac-bac-tarbia-islamia-789338",
+    "title": "موضوع بكالوريا - bac tarbia islamia 789338",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/اسلامية/dzexams-bac-tarbia-islamia-789338.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Math-Islamic Studies']) RESOURCES['3AS-Math-Islamic Studies'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Math-Islamic Studies'].exams.push(...[
+  {
+    "id": "bac-bac-tarbia-islamia-1126129",
+    "title": "موضوع بكالوريا - bac tarbia islamia 1126129",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/اسلامية/dzexams-bac-tarbia-islamia-1126129.pdf"
+  },
+  {
+    "id": "bac-bac-tarbia-islamia-1672301",
+    "title": "موضوع بكالوريا - bac tarbia islamia 1672301",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/اسلامية/dzexams-bac-tarbia-islamia-1672301.pdf"
+  },
+  {
+    "id": "bac-bac-tarbia-islamia-789338",
+    "title": "موضوع بكالوريا - bac tarbia islamia 789338",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/اسلامية/dzexams-bac-tarbia-islamia-789338.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Sciences-Islamic Studies']) RESOURCES['3AS-Sciences-Islamic Studies'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Sciences-Islamic Studies'].exams.push(...[
+  {
+    "id": "bac-bac-tarbia-islamia-1126129",
+    "title": "موضوع بكالوريا - bac tarbia islamia 1126129",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/اسلامية/dzexams-bac-tarbia-islamia-1126129.pdf"
+  },
+  {
+    "id": "bac-bac-tarbia-islamia-1672301",
+    "title": "موضوع بكالوريا - bac tarbia islamia 1672301",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/اسلامية/dzexams-bac-tarbia-islamia-1672301.pdf"
+  },
+  {
+    "id": "bac-bac-tarbia-islamia-789338",
+    "title": "موضوع بكالوريا - bac tarbia islamia 789338",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/اسلامية/dzexams-bac-tarbia-islamia-789338.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Technical Math-Islamic Studies']) RESOURCES['3AS-Technical Math-Islamic Studies'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Technical Math-Islamic Studies'].exams.push(...[
+  {
+    "id": "bac-bac-tarbia-islamia-1126129",
+    "title": "موضوع بكالوريا - bac tarbia islamia 1126129",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/اسلامية/dzexams-bac-tarbia-islamia-1126129.pdf"
+  },
+  {
+    "id": "bac-bac-tarbia-islamia-1672301",
+    "title": "موضوع بكالوريا - bac tarbia islamia 1672301",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/اسلامية/dzexams-bac-tarbia-islamia-1672301.pdf"
+  },
+  {
+    "id": "bac-bac-tarbia-islamia-789338",
+    "title": "موضوع بكالوريا - bac tarbia islamia 789338",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/اسلامية/dzexams-bac-tarbia-islamia-789338.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Literature-English']) RESOURCES['3AS-Literature-English'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Literature-English'].exams.push(...[
+  {
+    "id": "bac-bac-anglais-1096571",
+    "title": "موضوع بكالوريا - bac anglais 1096571",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/انجليزية/اداب وفلسفة/dzexams-bac-anglais-1096571.pdf"
+  },
+  {
+    "id": "bac-bac-anglais-206010",
+    "title": "موضوع بكالوريا - bac anglais 206010",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/انجليزية/اداب وفلسفة/dzexams-bac-anglais-206010.pdf"
+  },
+  {
+    "id": "bac-bac-anglais-2077403",
+    "title": "موضوع بكالوريا - bac anglais 2077403",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/انجليزية/اداب وفلسفة/dzexams-bac-anglais-2077403.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Management-English']) RESOURCES['3AS-Management-English'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Management-English'].exams.push(...[
+  {
+    "id": "bac-bac-anglais-1982304",
+    "title": "موضوع بكالوريا - bac anglais 1982304",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/انجليزية/رياضيات تقني رياضي علوم تجريبية تسيير و اقتصاد/dzexams-bac-anglais-1982304.pdf"
+  },
+  {
+    "id": "bac-bac-anglais-638929",
+    "title": "موضوع بكالوريا - bac anglais 638929",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/انجليزية/رياضيات تقني رياضي علوم تجريبية تسيير و اقتصاد/dzexams-bac-anglais-638929.pdf"
+  },
+  {
+    "id": "bac-bac-anglais-882145",
+    "title": "موضوع بكالوريا - bac anglais 882145",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/انجليزية/رياضيات تقني رياضي علوم تجريبية تسيير و اقتصاد/dzexams-bac-anglais-882145.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Math-English']) RESOURCES['3AS-Math-English'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Math-English'].exams.push(...[
+  {
+    "id": "bac-bac-anglais-1982304",
+    "title": "موضوع بكالوريا - bac anglais 1982304",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/انجليزية/رياضيات تقني رياضي علوم تجريبية تسيير و اقتصاد/dzexams-bac-anglais-1982304.pdf"
+  },
+  {
+    "id": "bac-bac-anglais-638929",
+    "title": "موضوع بكالوريا - bac anglais 638929",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/انجليزية/رياضيات تقني رياضي علوم تجريبية تسيير و اقتصاد/dzexams-bac-anglais-638929.pdf"
+  },
+  {
+    "id": "bac-bac-anglais-882145",
+    "title": "موضوع بكالوريا - bac anglais 882145",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/انجليزية/رياضيات تقني رياضي علوم تجريبية تسيير و اقتصاد/dzexams-bac-anglais-882145.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Sciences-English']) RESOURCES['3AS-Sciences-English'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Sciences-English'].exams.push(...[
+  {
+    "id": "bac-bac-anglais-1982304",
+    "title": "موضوع بكالوريا - bac anglais 1982304",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/انجليزية/رياضيات تقني رياضي علوم تجريبية تسيير و اقتصاد/dzexams-bac-anglais-1982304.pdf"
+  },
+  {
+    "id": "bac-bac-anglais-638929",
+    "title": "موضوع بكالوريا - bac anglais 638929",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/انجليزية/رياضيات تقني رياضي علوم تجريبية تسيير و اقتصاد/dzexams-bac-anglais-638929.pdf"
+  },
+  {
+    "id": "bac-bac-anglais-882145",
+    "title": "موضوع بكالوريا - bac anglais 882145",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/انجليزية/رياضيات تقني رياضي علوم تجريبية تسيير و اقتصاد/dzexams-bac-anglais-882145.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Technical Math-English']) RESOURCES['3AS-Technical Math-English'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Technical Math-English'].exams.push(...[
+  {
+    "id": "bac-bac-anglais-1982304",
+    "title": "موضوع بكالوريا - bac anglais 1982304",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/انجليزية/رياضيات تقني رياضي علوم تجريبية تسيير و اقتصاد/dzexams-bac-anglais-1982304.pdf"
+  },
+  {
+    "id": "bac-bac-anglais-638929",
+    "title": "موضوع بكالوريا - bac anglais 638929",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/انجليزية/رياضيات تقني رياضي علوم تجريبية تسيير و اقتصاد/dzexams-bac-anglais-638929.pdf"
+  },
+  {
+    "id": "bac-bac-anglais-882145",
+    "title": "موضوع بكالوريا - bac anglais 882145",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/انجليزية/رياضيات تقني رياضي علوم تجريبية تسيير و اقتصاد/dzexams-bac-anglais-882145.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Languages-English']) RESOURCES['3AS-Languages-English'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Languages-English'].exams.push(...[
+  {
+    "id": "bac-bac-anglais-1123526",
+    "title": "موضوع بكالوريا - bac anglais 1123526",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/انجليزية/لغات اجنبية/dzexams-bac-anglais-1123526.pdf"
+  },
+  {
+    "id": "bac-bac-anglais-2159137",
+    "title": "موضوع بكالوريا - bac anglais 2159137",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/انجليزية/لغات اجنبية/dzexams-bac-anglais-2159137.pdf"
+  },
+  {
+    "id": "bac-bac-anglais-322290",
+    "title": "موضوع بكالوريا - bac anglais 322290",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/انجليزية/لغات اجنبية/dzexams-bac-anglais-322290.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Literature-Third Language']) RESOURCES['3AS-Literature-Third Language'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Literature-Third Language'].exams.push(...[
+  {
+    "id": "bac-bac-italien-1221691",
+    "title": "موضوع بكالوريا - bac italien 1221691",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/ايطالية/dzexams-bac-italien-1221691.pdf"
+  },
+  {
+    "id": "bac-bac-italien-2338754",
+    "title": "موضوع بكالوريا - bac italien 2338754",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/ايطالية/dzexams-bac-italien-2338754.pdf"
+  },
+  {
+    "id": "bac-bac-italien-344964",
+    "title": "موضوع بكالوريا - bac italien 344964",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/ايطالية/dzexams-bac-italien-344964.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Languages-Third Language']) RESOURCES['3AS-Languages-Third Language'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Languages-Third Language'].exams.push(...[
+  {
+    "id": "bac-bac-italien-1221691",
+    "title": "موضوع بكالوريا - bac italien 1221691",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/ايطالية/dzexams-bac-italien-1221691.pdf"
+  },
+  {
+    "id": "bac-bac-italien-2338754",
+    "title": "موضوع بكالوريا - bac italien 2338754",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/ايطالية/dzexams-bac-italien-2338754.pdf"
+  },
+  {
+    "id": "bac-bac-italien-344964",
+    "title": "موضوع بكالوريا - bac italien 344964",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/ايطالية/dzexams-bac-italien-344964.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Management-Third Language']) RESOURCES['3AS-Management-Third Language'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Management-Third Language'].exams.push(...[
+  {
+    "id": "bac-bac-italien-1221691",
+    "title": "موضوع بكالوريا - bac italien 1221691",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/ايطالية/dzexams-bac-italien-1221691.pdf"
+  },
+  {
+    "id": "bac-bac-italien-2338754",
+    "title": "موضوع بكالوريا - bac italien 2338754",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/ايطالية/dzexams-bac-italien-2338754.pdf"
+  },
+  {
+    "id": "bac-bac-italien-344964",
+    "title": "موضوع بكالوريا - bac italien 344964",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/ايطالية/dzexams-bac-italien-344964.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Math-Third Language']) RESOURCES['3AS-Math-Third Language'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Math-Third Language'].exams.push(...[
+  {
+    "id": "bac-bac-italien-1221691",
+    "title": "موضوع بكالوريا - bac italien 1221691",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/ايطالية/dzexams-bac-italien-1221691.pdf"
+  },
+  {
+    "id": "bac-bac-italien-2338754",
+    "title": "موضوع بكالوريا - bac italien 2338754",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/ايطالية/dzexams-bac-italien-2338754.pdf"
+  },
+  {
+    "id": "bac-bac-italien-344964",
+    "title": "موضوع بكالوريا - bac italien 344964",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/ايطالية/dzexams-bac-italien-344964.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Sciences-Third Language']) RESOURCES['3AS-Sciences-Third Language'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Sciences-Third Language'].exams.push(...[
+  {
+    "id": "bac-bac-italien-1221691",
+    "title": "موضوع بكالوريا - bac italien 1221691",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/ايطالية/dzexams-bac-italien-1221691.pdf"
+  },
+  {
+    "id": "bac-bac-italien-2338754",
+    "title": "موضوع بكالوريا - bac italien 2338754",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/ايطالية/dzexams-bac-italien-2338754.pdf"
+  },
+  {
+    "id": "bac-bac-italien-344964",
+    "title": "موضوع بكالوريا - bac italien 344964",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/ايطالية/dzexams-bac-italien-344964.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Technical Math-Third Language']) RESOURCES['3AS-Technical Math-Third Language'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Technical Math-Third Language'].exams.push(...[
+  {
+    "id": "bac-bac-italien-1221691",
+    "title": "موضوع بكالوريا - bac italien 1221691",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/ايطالية/dzexams-bac-italien-1221691.pdf"
+  },
+  {
+    "id": "bac-bac-italien-2338754",
+    "title": "موضوع بكالوريا - bac italien 2338754",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/ايطالية/dzexams-bac-italien-2338754.pdf"
+  },
+  {
+    "id": "bac-bac-italien-344964",
+    "title": "موضوع بكالوريا - bac italien 344964",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/ايطالية/dzexams-bac-italien-344964.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Literature-History & Geography']) RESOURCES['3AS-Literature-History & Geography'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Literature-History & Geography'].exams.push(...[
+  {
+    "id": "bac-bac-histoire-geographie-1029951",
+    "title": "موضوع بكالوريا - bac histoire geographie 1029951",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/تاريخ و جغرافيا/اداب وفلسفة/dzexams-bac-histoire-geographie-1029951.pdf"
+  },
+  {
+    "id": "bac-bac-histoire-geographie-1186851",
+    "title": "موضوع بكالوريا - bac histoire geographie 1186851",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/تاريخ و جغرافيا/اداب وفلسفة/dzexams-bac-histoire-geographie-1186851.pdf"
+  },
+  {
+    "id": "bac-bac-histoire-geographie-487973",
+    "title": "موضوع بكالوريا - bac histoire geographie 487973",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/تاريخ و جغرافيا/اداب وفلسفة/dzexams-bac-histoire-geographie-487973.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Management-History & Geography']) RESOURCES['3AS-Management-History & Geography'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Management-History & Geography'].exams.push(...[
+  {
+    "id": "bac-bac-hisgeo-1133081",
+    "title": "موضوع بكالوريا - bac hisgeo 1133081",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/تاريخ و جغرافيا/تسيير و اقتصاد/dzexams-bac-hisgeo-1133081.pdf"
+  },
+  {
+    "id": "bac-bac-histoire-geographie-1371453",
+    "title": "موضوع بكالوريا - bac histoire geographie 1371453",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/تاريخ و جغرافيا/تسيير و اقتصاد/dzexams-bac-histoire-geographie-1371453.pdf"
+  },
+  {
+    "id": "bac-bac-histoire-geographie-1846683",
+    "title": "موضوع بكالوريا - bac histoire geographie 1846683",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/تاريخ و جغرافيا/تسيير و اقتصاد/dzexams-bac-histoire-geographie-1846683.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Math-History & Geography']) RESOURCES['3AS-Math-History & Geography'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Math-History & Geography'].exams.push(...[
+  {
+    "id": "bac-bac-histoire-geographie-1125146",
+    "title": "موضوع بكالوريا - bac histoire geographie 1125146",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/تاريخ و جغرافيا/رياضيات تقني رياضي علوم تجريبية/dzexams-bac-histoire-geographie-1125146.pdf"
+  },
+  {
+    "id": "bac-bac-histoire-geographie-1945783",
+    "title": "موضوع بكالوريا - bac histoire geographie 1945783",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/تاريخ و جغرافيا/رياضيات تقني رياضي علوم تجريبية/dzexams-bac-histoire-geographie-1945783.pdf"
+  },
+  {
+    "id": "bac-bac-histoire-geographie-992867",
+    "title": "موضوع بكالوريا - bac histoire geographie 992867",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/تاريخ و جغرافيا/رياضيات تقني رياضي علوم تجريبية/dzexams-bac-histoire-geographie-992867.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Sciences-History & Geography']) RESOURCES['3AS-Sciences-History & Geography'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Sciences-History & Geography'].exams.push(...[
+  {
+    "id": "bac-bac-histoire-geographie-1125146",
+    "title": "موضوع بكالوريا - bac histoire geographie 1125146",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/تاريخ و جغرافيا/رياضيات تقني رياضي علوم تجريبية/dzexams-bac-histoire-geographie-1125146.pdf"
+  },
+  {
+    "id": "bac-bac-histoire-geographie-1945783",
+    "title": "موضوع بكالوريا - bac histoire geographie 1945783",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/تاريخ و جغرافيا/رياضيات تقني رياضي علوم تجريبية/dzexams-bac-histoire-geographie-1945783.pdf"
+  },
+  {
+    "id": "bac-bac-histoire-geographie-992867",
+    "title": "موضوع بكالوريا - bac histoire geographie 992867",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/تاريخ و جغرافيا/رياضيات تقني رياضي علوم تجريبية/dzexams-bac-histoire-geographie-992867.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Technical Math-History & Geography']) RESOURCES['3AS-Technical Math-History & Geography'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Technical Math-History & Geography'].exams.push(...[
+  {
+    "id": "bac-bac-histoire-geographie-1125146",
+    "title": "موضوع بكالوريا - bac histoire geographie 1125146",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/تاريخ و جغرافيا/رياضيات تقني رياضي علوم تجريبية/dzexams-bac-histoire-geographie-1125146.pdf"
+  },
+  {
+    "id": "bac-bac-histoire-geographie-1945783",
+    "title": "موضوع بكالوريا - bac histoire geographie 1945783",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/تاريخ و جغرافيا/رياضيات تقني رياضي علوم تجريبية/dzexams-bac-histoire-geographie-1945783.pdf"
+  },
+  {
+    "id": "bac-bac-histoire-geographie-992867",
+    "title": "موضوع بكالوريا - bac histoire geographie 992867",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/تاريخ و جغرافيا/رياضيات تقني رياضي علوم تجريبية/dzexams-bac-histoire-geographie-992867.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Languages-History & Geography']) RESOURCES['3AS-Languages-History & Geography'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Languages-History & Geography'].exams.push(...[
+  {
+    "id": "bac-bac-histoire-geographie-1416850",
+    "title": "موضوع بكالوريا - bac histoire geographie 1416850",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/تاريخ و جغرافيا/لغات اجنبية/dzexams-bac-histoire-geographie-1416850.pdf"
+  },
+  {
+    "id": "bac-bac-histoire-geographie-1997487",
+    "title": "موضوع بكالوريا - bac histoire geographie 1997487",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/تاريخ و جغرافيا/لغات اجنبية/dzexams-bac-histoire-geographie-1997487.pdf"
+  },
+  {
+    "id": "bac-bac-histoire-geographie-358163",
+    "title": "موضوع بكالوريا - bac histoire geographie 358163",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/تاريخ و جغرافيا/لغات اجنبية/dzexams-bac-histoire-geographie-358163.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Technical Math-Math']) RESOURCES['3AS-Technical Math-Math'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Technical Math-Math'].exams.push(...[
+  {
+    "id": "bac-bac-mathematiques-1494511",
+    "title": "موضوع بكالوريا - bac mathematiques 1494511",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/رياضيات/تقني رياضي/dzexams-bac-mathematiques-1494511.pdf"
+  },
+  {
+    "id": "bac-bac-mathematiques-2243211",
+    "title": "موضوع بكالوريا - bac mathematiques 2243211",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/رياضيات/تقني رياضي/dzexams-bac-mathematiques-2243211.pdf"
+  },
+  {
+    "id": "bac-bac-mathematiques-943402",
+    "title": "موضوع بكالوريا - bac mathematiques 943402",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/رياضيات/تقني رياضي/dzexams-bac-mathematiques-943402.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Math-Math']) RESOURCES['3AS-Math-Math'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Math-Math'].exams.push(...[
+  {
+    "id": "bac-2as-mathematiques-291336",
+    "title": "موضوع بكالوريا - 2as mathematiques 291336",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/رياضيات/رياضيات/dzexams-2as-mathematiques-291336.pdf"
+  },
+  {
+    "id": "bac-bac-mathematiques-1717381",
+    "title": "موضوع بكالوريا - bac mathematiques 1717381",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/رياضيات/رياضيات/dzexams-bac-mathematiques-1717381.pdf"
+  },
+  {
+    "id": "bac-bac-mathematiques-672733",
+    "title": "موضوع بكالوريا - bac mathematiques 672733",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/رياضيات/رياضيات/dzexams-bac-mathematiques-672733.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Sciences-Math']) RESOURCES['3AS-Sciences-Math'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Sciences-Math'].exams.push(...[
+  {
+    "id": "bac-bac-mathematiques-1435676",
+    "title": "موضوع بكالوريا - bac mathematiques 1435676",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/رياضيات/علوم تجريبية/dzexams-bac-mathematiques-1435676.pdf"
+  },
+  {
+    "id": "bac-bac-mathematiques-2229208",
+    "title": "موضوع بكالوريا - bac mathematiques 2229208",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/رياضيات/علوم تجريبية/dzexams-bac-mathematiques-2229208.pdf"
+  },
+  {
+    "id": "bac-bac-mathematiques-570438",
+    "title": "موضوع بكالوريا - bac mathematiques 570438",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/رياضيات/علوم تجريبية/dzexams-bac-mathematiques-570438.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Literature-Arabic']) RESOURCES['3AS-Literature-Arabic'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Literature-Arabic'].exams.push(...[
+  {
+    "id": "bac-bac-arabe-1333181",
+    "title": "موضوع بكالوريا - bac arabe 1333181",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/عربية/اداب وفلسفة/dzexams-bac-arabe-1333181.pdf"
+  },
+  {
+    "id": "bac-bac-arabe-1915059",
+    "title": "موضوع بكالوريا - bac arabe 1915059",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/عربية/اداب وفلسفة/dzexams-bac-arabe-1915059.pdf"
+  },
+  {
+    "id": "bac-bac-arabe-700885",
+    "title": "موضوع بكالوريا - bac arabe 700885",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/عربية/اداب وفلسفة/dzexams-bac-arabe-700885.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Management-Arabic']) RESOURCES['3AS-Management-Arabic'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Management-Arabic'].exams.push(...[
+  {
+    "id": "bac-bac-arabe-1447703",
+    "title": "موضوع بكالوريا - bac arabe 1447703",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/عربية/رياضيات _ تقني رياضي _ علوم تجريبية _ تسيير واقتصاد/dzexams-bac-arabe-1447703.pdf"
+  },
+  {
+    "id": "bac-bac-arabe-326782",
+    "title": "موضوع بكالوريا - bac arabe 326782",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/عربية/رياضيات _ تقني رياضي _ علوم تجريبية _ تسيير واقتصاد/dzexams-bac-arabe-326782.pdf"
+  },
+  {
+    "id": "bac-bac-arabe-876880",
+    "title": "موضوع بكالوريا - bac arabe 876880",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/عربية/رياضيات _ تقني رياضي _ علوم تجريبية _ تسيير واقتصاد/dzexams-bac-arabe-876880.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Math-Arabic']) RESOURCES['3AS-Math-Arabic'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Math-Arabic'].exams.push(...[
+  {
+    "id": "bac-bac-arabe-1447703",
+    "title": "موضوع بكالوريا - bac arabe 1447703",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/عربية/رياضيات _ تقني رياضي _ علوم تجريبية _ تسيير واقتصاد/dzexams-bac-arabe-1447703.pdf"
+  },
+  {
+    "id": "bac-bac-arabe-326782",
+    "title": "موضوع بكالوريا - bac arabe 326782",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/عربية/رياضيات _ تقني رياضي _ علوم تجريبية _ تسيير واقتصاد/dzexams-bac-arabe-326782.pdf"
+  },
+  {
+    "id": "bac-bac-arabe-876880",
+    "title": "موضوع بكالوريا - bac arabe 876880",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/عربية/رياضيات _ تقني رياضي _ علوم تجريبية _ تسيير واقتصاد/dzexams-bac-arabe-876880.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Sciences-Arabic']) RESOURCES['3AS-Sciences-Arabic'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Sciences-Arabic'].exams.push(...[
+  {
+    "id": "bac-bac-arabe-1447703",
+    "title": "موضوع بكالوريا - bac arabe 1447703",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/عربية/رياضيات _ تقني رياضي _ علوم تجريبية _ تسيير واقتصاد/dzexams-bac-arabe-1447703.pdf"
+  },
+  {
+    "id": "bac-bac-arabe-326782",
+    "title": "موضوع بكالوريا - bac arabe 326782",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/عربية/رياضيات _ تقني رياضي _ علوم تجريبية _ تسيير واقتصاد/dzexams-bac-arabe-326782.pdf"
+  },
+  {
+    "id": "bac-bac-arabe-876880",
+    "title": "موضوع بكالوريا - bac arabe 876880",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/عربية/رياضيات _ تقني رياضي _ علوم تجريبية _ تسيير واقتصاد/dzexams-bac-arabe-876880.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Technical Math-Arabic']) RESOURCES['3AS-Technical Math-Arabic'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Technical Math-Arabic'].exams.push(...[
+  {
+    "id": "bac-bac-arabe-1447703",
+    "title": "موضوع بكالوريا - bac arabe 1447703",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/عربية/رياضيات _ تقني رياضي _ علوم تجريبية _ تسيير واقتصاد/dzexams-bac-arabe-1447703.pdf"
+  },
+  {
+    "id": "bac-bac-arabe-326782",
+    "title": "موضوع بكالوريا - bac arabe 326782",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/عربية/رياضيات _ تقني رياضي _ علوم تجريبية _ تسيير واقتصاد/dzexams-bac-arabe-326782.pdf"
+  },
+  {
+    "id": "bac-bac-arabe-876880",
+    "title": "موضوع بكالوريا - bac arabe 876880",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/عربية/رياضيات _ تقني رياضي _ علوم تجريبية _ تسيير واقتصاد/dzexams-bac-arabe-876880.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Languages-Arabic']) RESOURCES['3AS-Languages-Arabic'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Languages-Arabic'].exams.push(...[
+  {
+    "id": "bac-bac-arabe-1258854",
+    "title": "موضوع بكالوريا - bac arabe 1258854",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/عربية/لغات اجنبية/dzexams-bac-arabe-1258854.pdf"
+  },
+  {
+    "id": "bac-bac-arabe-2179524",
+    "title": "موضوع بكالوريا - bac arabe 2179524",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/عربية/لغات اجنبية/dzexams-bac-arabe-2179524.pdf"
+  },
+  {
+    "id": "bac-bac-arabe-256076",
+    "title": "موضوع بكالوريا - bac arabe 256076",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/عربية/لغات اجنبية/dzexams-bac-arabe-256076.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Math-Science']) RESOURCES['3AS-Math-Science'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Math-Science'].exams.push(...[
+  {
+    "id": "bac-bac-sciences-naturelles-1077342",
+    "title": "موضوع بكالوريا - bac sciences naturelles 1077342",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/علوم/رياضيات/dzexams-bac-sciences-naturelles-1077342.pdf"
+  },
+  {
+    "id": "bac-bac-sciences-naturelles-1482576",
+    "title": "موضوع بكالوريا - bac sciences naturelles 1482576",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/علوم/رياضيات/dzexams-bac-sciences-naturelles-1482576.pdf"
+  },
+  {
+    "id": "bac-bac-sciences-naturelles-1554243",
+    "title": "موضوع بكالوريا - bac sciences naturelles 1554243",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/علوم/رياضيات/dzexams-bac-sciences-naturelles-1554243.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Sciences-Science']) RESOURCES['3AS-Sciences-Science'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Sciences-Science'].exams.push(...[
+  {
+    "id": "bac-bac-sciences-naturelles-1751784",
+    "title": "موضوع بكالوريا - bac sciences naturelles 1751784",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/علوم/علوم تجريبية/dzexams-bac-sciences-naturelles-1751784.pdf"
+  },
+  {
+    "id": "bac-bac-sciences-naturelles-1780707",
+    "title": "موضوع بكالوريا - bac sciences naturelles 1780707",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/علوم/علوم تجريبية/dzexams-bac-sciences-naturelles-1780707.pdf"
+  },
+  {
+    "id": "bac-bac-sciences-naturelles-2232508",
+    "title": "موضوع بكالوريا - bac sciences naturelles 2232508",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/علوم/علوم تجريبية/dzexams-bac-sciences-naturelles-2232508.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Literature-French']) RESOURCES['3AS-Literature-French'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Literature-French'].exams.push(...[
+  {
+    "id": "bac-bac-francais-1190564",
+    "title": "موضوع بكالوريا - bac francais 1190564",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فرنسية/اداب و فلسفة/dzexams-bac-francais-1190564.pdf"
+  },
+  {
+    "id": "bac-bac-francais-230351",
+    "title": "موضوع بكالوريا - bac francais 230351",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فرنسية/اداب و فلسفة/dzexams-bac-francais-230351.pdf"
+  },
+  {
+    "id": "bac-bac-francais-688851",
+    "title": "موضوع بكالوريا - bac francais 688851",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فرنسية/اداب و فلسفة/dzexams-bac-francais-688851.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Management-French']) RESOURCES['3AS-Management-French'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Management-French'].exams.push(...[
+  {
+    "id": "bac-bac-francais-1518835",
+    "title": "موضوع بكالوريا - bac francais 1518835",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فرنسية/رياضيات تقني رياضي علوم تجريبية تسيير واقتصاد/dzexams-bac-francais-1518835.pdf"
+  },
+  {
+    "id": "bac-bac-francais-1998265",
+    "title": "موضوع بكالوريا - bac francais 1998265",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فرنسية/رياضيات تقني رياضي علوم تجريبية تسيير واقتصاد/dzexams-bac-francais-1998265.pdf"
+  },
+  {
+    "id": "bac-bac-francais-707721",
+    "title": "موضوع بكالوريا - bac francais 707721",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فرنسية/رياضيات تقني رياضي علوم تجريبية تسيير واقتصاد/dzexams-bac-francais-707721.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Math-French']) RESOURCES['3AS-Math-French'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Math-French'].exams.push(...[
+  {
+    "id": "bac-bac-francais-1518835",
+    "title": "موضوع بكالوريا - bac francais 1518835",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فرنسية/رياضيات تقني رياضي علوم تجريبية تسيير واقتصاد/dzexams-bac-francais-1518835.pdf"
+  },
+  {
+    "id": "bac-bac-francais-1998265",
+    "title": "موضوع بكالوريا - bac francais 1998265",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فرنسية/رياضيات تقني رياضي علوم تجريبية تسيير واقتصاد/dzexams-bac-francais-1998265.pdf"
+  },
+  {
+    "id": "bac-bac-francais-707721",
+    "title": "موضوع بكالوريا - bac francais 707721",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فرنسية/رياضيات تقني رياضي علوم تجريبية تسيير واقتصاد/dzexams-bac-francais-707721.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Sciences-French']) RESOURCES['3AS-Sciences-French'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Sciences-French'].exams.push(...[
+  {
+    "id": "bac-bac-francais-1518835",
+    "title": "موضوع بكالوريا - bac francais 1518835",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فرنسية/رياضيات تقني رياضي علوم تجريبية تسيير واقتصاد/dzexams-bac-francais-1518835.pdf"
+  },
+  {
+    "id": "bac-bac-francais-1998265",
+    "title": "موضوع بكالوريا - bac francais 1998265",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فرنسية/رياضيات تقني رياضي علوم تجريبية تسيير واقتصاد/dzexams-bac-francais-1998265.pdf"
+  },
+  {
+    "id": "bac-bac-francais-707721",
+    "title": "موضوع بكالوريا - bac francais 707721",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فرنسية/رياضيات تقني رياضي علوم تجريبية تسيير واقتصاد/dzexams-bac-francais-707721.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Technical Math-French']) RESOURCES['3AS-Technical Math-French'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Technical Math-French'].exams.push(...[
+  {
+    "id": "bac-bac-francais-1518835",
+    "title": "موضوع بكالوريا - bac francais 1518835",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فرنسية/رياضيات تقني رياضي علوم تجريبية تسيير واقتصاد/dzexams-bac-francais-1518835.pdf"
+  },
+  {
+    "id": "bac-bac-francais-1998265",
+    "title": "موضوع بكالوريا - bac francais 1998265",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فرنسية/رياضيات تقني رياضي علوم تجريبية تسيير واقتصاد/dzexams-bac-francais-1998265.pdf"
+  },
+  {
+    "id": "bac-bac-francais-707721",
+    "title": "موضوع بكالوريا - bac francais 707721",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فرنسية/رياضيات تقني رياضي علوم تجريبية تسيير واقتصاد/dzexams-bac-francais-707721.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Languages-French']) RESOURCES['3AS-Languages-French'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Languages-French'].exams.push(...[
+  {
+    "id": "bac-bac-francais-2090468",
+    "title": "موضوع بكالوريا - bac francais 2090468",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فرنسية/لغات اجنبية/dzexams-bac-francais-2090468.pdf"
+  },
+  {
+    "id": "bac-bac-francais-335607",
+    "title": "موضوع بكالوريا - bac francais 335607",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فرنسية/لغات اجنبية/dzexams-bac-francais-335607.pdf"
+  },
+  {
+    "id": "bac-bac-francais-989726",
+    "title": "موضوع بكالوريا - bac francais 989726",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فرنسية/لغات اجنبية/dzexams-bac-francais-989726.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Math-Physics']) RESOURCES['3AS-Math-Physics'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Math-Physics'].exams.push(...[
+  {
+    "id": "bac-bac-physique-1987036",
+    "title": "موضوع بكالوريا - bac physique 1987036",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فيزياء/رياضيات _ تقني رياضي/dzexams-bac-physique-1987036.pdf"
+  },
+  {
+    "id": "bac-bac-physique-708233",
+    "title": "موضوع بكالوريا - bac physique 708233",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فيزياء/رياضيات _ تقني رياضي/dzexams-bac-physique-708233.pdf"
+  },
+  {
+    "id": "bac-bac-physique-820611",
+    "title": "موضوع بكالوريا - bac physique 820611",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فيزياء/رياضيات _ تقني رياضي/dzexams-bac-physique-820611.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Technical Math-Physics']) RESOURCES['3AS-Technical Math-Physics'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Technical Math-Physics'].exams.push(...[
+  {
+    "id": "bac-bac-physique-1987036",
+    "title": "موضوع بكالوريا - bac physique 1987036",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فيزياء/رياضيات _ تقني رياضي/dzexams-bac-physique-1987036.pdf"
+  },
+  {
+    "id": "bac-bac-physique-708233",
+    "title": "موضوع بكالوريا - bac physique 708233",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فيزياء/رياضيات _ تقني رياضي/dzexams-bac-physique-708233.pdf"
+  },
+  {
+    "id": "bac-bac-physique-820611",
+    "title": "موضوع بكالوريا - bac physique 820611",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فيزياء/رياضيات _ تقني رياضي/dzexams-bac-physique-820611.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Sciences-Physics']) RESOURCES['3AS-Sciences-Physics'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Sciences-Physics'].exams.push(...[
+  {
+    "id": "bac-bac-physique-2213419",
+    "title": "موضوع بكالوريا - bac physique 2213419",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فيزياء/علوم تجريبية/dzexams-bac-physique-2213419.pdf"
+  },
+  {
+    "id": "bac-bac-physique-842618",
+    "title": "موضوع بكالوريا - bac physique 842618",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فيزياء/علوم تجريبية/dzexams-bac-physique-842618.pdf"
+  },
+  {
+    "id": "bac-bac-physique-956790",
+    "title": "موضوع بكالوريا - bac physique 956790",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/فيزياء/علوم تجريبية/dzexams-bac-physique-956790.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Literature-Electrical Engineering']) RESOURCES['3AS-Literature-Electrical Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Literature-Electrical Engineering'].exams.push(...[
+  {
+    "id": "bac-bac-genie-electrique-1088324",
+    "title": "موضوع بكالوريا - bac genie electrique 1088324",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة كهربائية/dzexams-bac-genie-electrique-1088324.pdf"
+  },
+  {
+    "id": "bac-bac-genie-electrique-2641000",
+    "title": "موضوع بكالوريا - bac genie electrique 2641000",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة كهربائية/dzexams-bac-genie-electrique-2641000.pdf"
+  },
+  {
+    "id": "bac-bac-genie-electrique-780005",
+    "title": "موضوع بكالوريا - bac genie electrique 780005",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة كهربائية/dzexams-bac-genie-electrique-780005.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Languages-Electrical Engineering']) RESOURCES['3AS-Languages-Electrical Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Languages-Electrical Engineering'].exams.push(...[
+  {
+    "id": "bac-bac-genie-electrique-1088324",
+    "title": "موضوع بكالوريا - bac genie electrique 1088324",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة كهربائية/dzexams-bac-genie-electrique-1088324.pdf"
+  },
+  {
+    "id": "bac-bac-genie-electrique-2641000",
+    "title": "موضوع بكالوريا - bac genie electrique 2641000",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة كهربائية/dzexams-bac-genie-electrique-2641000.pdf"
+  },
+  {
+    "id": "bac-bac-genie-electrique-780005",
+    "title": "موضوع بكالوريا - bac genie electrique 780005",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة كهربائية/dzexams-bac-genie-electrique-780005.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Management-Electrical Engineering']) RESOURCES['3AS-Management-Electrical Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Management-Electrical Engineering'].exams.push(...[
+  {
+    "id": "bac-bac-genie-electrique-1088324",
+    "title": "موضوع بكالوريا - bac genie electrique 1088324",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة كهربائية/dzexams-bac-genie-electrique-1088324.pdf"
+  },
+  {
+    "id": "bac-bac-genie-electrique-2641000",
+    "title": "موضوع بكالوريا - bac genie electrique 2641000",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة كهربائية/dzexams-bac-genie-electrique-2641000.pdf"
+  },
+  {
+    "id": "bac-bac-genie-electrique-780005",
+    "title": "موضوع بكالوريا - bac genie electrique 780005",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة كهربائية/dzexams-bac-genie-electrique-780005.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Math-Electrical Engineering']) RESOURCES['3AS-Math-Electrical Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Math-Electrical Engineering'].exams.push(...[
+  {
+    "id": "bac-bac-genie-electrique-1088324",
+    "title": "موضوع بكالوريا - bac genie electrique 1088324",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة كهربائية/dzexams-bac-genie-electrique-1088324.pdf"
+  },
+  {
+    "id": "bac-bac-genie-electrique-2641000",
+    "title": "موضوع بكالوريا - bac genie electrique 2641000",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة كهربائية/dzexams-bac-genie-electrique-2641000.pdf"
+  },
+  {
+    "id": "bac-bac-genie-electrique-780005",
+    "title": "موضوع بكالوريا - bac genie electrique 780005",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة كهربائية/dzexams-bac-genie-electrique-780005.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Sciences-Electrical Engineering']) RESOURCES['3AS-Sciences-Electrical Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Sciences-Electrical Engineering'].exams.push(...[
+  {
+    "id": "bac-bac-genie-electrique-1088324",
+    "title": "موضوع بكالوريا - bac genie electrique 1088324",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة كهربائية/dzexams-bac-genie-electrique-1088324.pdf"
+  },
+  {
+    "id": "bac-bac-genie-electrique-2641000",
+    "title": "موضوع بكالوريا - bac genie electrique 2641000",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة كهربائية/dzexams-bac-genie-electrique-2641000.pdf"
+  },
+  {
+    "id": "bac-bac-genie-electrique-780005",
+    "title": "موضوع بكالوريا - bac genie electrique 780005",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة كهربائية/dzexams-bac-genie-electrique-780005.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Technical Math-Electrical Engineering']) RESOURCES['3AS-Technical Math-Electrical Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Technical Math-Electrical Engineering'].exams.push(...[
+  {
+    "id": "bac-bac-genie-electrique-1088324",
+    "title": "موضوع بكالوريا - bac genie electrique 1088324",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة كهربائية/dzexams-bac-genie-electrique-1088324.pdf"
+  },
+  {
+    "id": "bac-bac-genie-electrique-2641000",
+    "title": "موضوع بكالوريا - bac genie electrique 2641000",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة كهربائية/dzexams-bac-genie-electrique-2641000.pdf"
+  },
+  {
+    "id": "bac-bac-genie-electrique-780005",
+    "title": "موضوع بكالوريا - bac genie electrique 780005",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة كهربائية/dzexams-bac-genie-electrique-780005.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Literature-Civil Engineering']) RESOURCES['3AS-Literature-Civil Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Literature-Civil Engineering'].exams.push(...[
+  {
+    "id": "bac-bac-genie-civil-1829269",
+    "title": "موضوع بكالوريا - bac genie civil 1829269",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة مدنية/dzexams-bac-genie-civil-1829269.pdf"
+  },
+  {
+    "id": "bac-bac-genie-civil-2144442",
+    "title": "موضوع بكالوريا - bac genie civil 2144442",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة مدنية/dzexams-bac-genie-civil-2144442.pdf"
+  },
+  {
+    "id": "bac-bac-genie-civil-769318",
+    "title": "موضوع بكالوريا - bac genie civil 769318",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة مدنية/dzexams-bac-genie-civil-769318.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Languages-Civil Engineering']) RESOURCES['3AS-Languages-Civil Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Languages-Civil Engineering'].exams.push(...[
+  {
+    "id": "bac-bac-genie-civil-1829269",
+    "title": "موضوع بكالوريا - bac genie civil 1829269",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة مدنية/dzexams-bac-genie-civil-1829269.pdf"
+  },
+  {
+    "id": "bac-bac-genie-civil-2144442",
+    "title": "موضوع بكالوريا - bac genie civil 2144442",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة مدنية/dzexams-bac-genie-civil-2144442.pdf"
+  },
+  {
+    "id": "bac-bac-genie-civil-769318",
+    "title": "موضوع بكالوريا - bac genie civil 769318",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة مدنية/dzexams-bac-genie-civil-769318.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Management-Civil Engineering']) RESOURCES['3AS-Management-Civil Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Management-Civil Engineering'].exams.push(...[
+  {
+    "id": "bac-bac-genie-civil-1829269",
+    "title": "موضوع بكالوريا - bac genie civil 1829269",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة مدنية/dzexams-bac-genie-civil-1829269.pdf"
+  },
+  {
+    "id": "bac-bac-genie-civil-2144442",
+    "title": "موضوع بكالوريا - bac genie civil 2144442",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة مدنية/dzexams-bac-genie-civil-2144442.pdf"
+  },
+  {
+    "id": "bac-bac-genie-civil-769318",
+    "title": "موضوع بكالوريا - bac genie civil 769318",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة مدنية/dzexams-bac-genie-civil-769318.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Math-Civil Engineering']) RESOURCES['3AS-Math-Civil Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Math-Civil Engineering'].exams.push(...[
+  {
+    "id": "bac-bac-genie-civil-1829269",
+    "title": "موضوع بكالوريا - bac genie civil 1829269",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة مدنية/dzexams-bac-genie-civil-1829269.pdf"
+  },
+  {
+    "id": "bac-bac-genie-civil-2144442",
+    "title": "موضوع بكالوريا - bac genie civil 2144442",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة مدنية/dzexams-bac-genie-civil-2144442.pdf"
+  },
+  {
+    "id": "bac-bac-genie-civil-769318",
+    "title": "موضوع بكالوريا - bac genie civil 769318",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة مدنية/dzexams-bac-genie-civil-769318.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Sciences-Civil Engineering']) RESOURCES['3AS-Sciences-Civil Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Sciences-Civil Engineering'].exams.push(...[
+  {
+    "id": "bac-bac-genie-civil-1829269",
+    "title": "موضوع بكالوريا - bac genie civil 1829269",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة مدنية/dzexams-bac-genie-civil-1829269.pdf"
+  },
+  {
+    "id": "bac-bac-genie-civil-2144442",
+    "title": "موضوع بكالوريا - bac genie civil 2144442",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة مدنية/dzexams-bac-genie-civil-2144442.pdf"
+  },
+  {
+    "id": "bac-bac-genie-civil-769318",
+    "title": "موضوع بكالوريا - bac genie civil 769318",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة مدنية/dzexams-bac-genie-civil-769318.pdf"
+  }
+]);
+if (!RESOURCES['3AS-Technical Math-Civil Engineering']) RESOURCES['3AS-Technical Math-Civil Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Technical Math-Civil Engineering'].exams.push(...[
+  {
+    "id": "bac-bac-genie-civil-1829269",
+    "title": "موضوع بكالوريا - bac genie civil 1829269",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة مدنية/dzexams-bac-genie-civil-1829269.pdf"
+  },
+  {
+    "id": "bac-bac-genie-civil-2144442",
+    "title": "موضوع بكالوريا - bac genie civil 2144442",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة مدنية/dzexams-bac-genie-civil-2144442.pdf"
+  },
+  {
+    "id": "bac-bac-genie-civil-769318",
+    "title": "موضوع بكالوريا - bac genie civil 769318",
+    "desc": "موضوع بكالوريا رسمي",
+    "chapter": "all",
+    "date": "جوان",
+    "size": "1.5 MB",
+    "url": "exams/سنة ثالثة/البكالوريا/هندسة مدنية/dzexams-bac-genie-civil-769318.pdf"
+  }
+]);
+
 // ROUTER — reads URL params and initializes the correct page
 // ============================================================
 
@@ -349,7 +2032,18 @@ function getParams() {
 
 function initPage() {
   const path = window.location.pathname;
-  if (path.includes('year.html')) initYearPage();
+  if (path.includes('bac.html')) { getParams = () => ({year:'3AS'}); initYearPage(); }
+  else if (path.includes('bac_track.html')) {
+    const t = new URLSearchParams(window.location.search).get('track') || 'Sciences';
+    getParams = () => ({year:'3AS', track:t}); 
+    initTrackPage(); 
+  }
+  else if (path.includes('bac_subject.html')) {
+    const p = new URLSearchParams(window.location.search);
+    getParams = () => ({year:'3AS', track:p.get('track') || 'Sciences', subject:p.get('subject') || 'Math'});
+    initSubjectPage();
+  }
+  else if (path.includes('year.html')) initYearPage();
   else if (path.includes('track.html')) initTrackPage();
   else if (path.includes('subject.html')) initSubjectPage();
   else if (path.includes('favorites.html')) initFavoritesPage();
@@ -656,10 +2350,11 @@ function initYearPage() {
   const badgeEl = document.getElementById('pageBadge');
   const bcYear = document.getElementById('bc-year');
   
-  if(titleEl) titleEl.textContent = yearData.title;
-  if(descEl) descEl.textContent = yearData.desc;
-  if(badgeEl) badgeEl.textContent = yearData.badge;
-  if(bcYear) { bcYear.textContent = yearData.title; bcYear.href = `year.html?year=${year}`; }
+  const isBacFlowGlob = window.location.pathname.includes('bac.html');
+  if(titleEl) titleEl.textContent = isBacFlowGlob ? 'البكالوريا' : yearData.title;
+  if(descEl) descEl.textContent = isBacFlowGlob ? 'مواضيع وحلول بكالوريا سابقة' : yearData.desc;
+  if(badgeEl) badgeEl.textContent = isBacFlowGlob ? 'BAC' : yearData.badge;
+  if(bcYear) { bcYear.textContent = isBacFlowGlob ? 'البكالوريا' : yearData.title; bcYear.href = isBacFlowGlob ? 'bac.html' : `year.html?year=${year}`; }
   
   const container = document.getElementById('tracksContainer');
   if (container) {
@@ -668,7 +2363,8 @@ function initYearPage() {
     
     Object.keys(tracksObj).forEach(trackName => {
       const t = tracksObj[trackName];
-      const link = `track.html?year=${year}&track=${encodeURIComponent(trackName)}`;
+      const isBacFlow = window.location.pathname.includes('bac.html');
+      const link = isBacFlow ? `bac_track.html?track=${encodeURIComponent(trackName)}` : `track.html?year=${year}&track=${encodeURIComponent(trackName)}`;
       let arTrackName = "";
       if (trackName === "Sciences") arTrackName = "علوم تجريبية";
       else if (trackName === "Math") arTrackName = "رياضيات";
@@ -690,7 +2386,7 @@ function initYearPage() {
           <div class="track-subjects-preview">
             ${t.subjects.slice(0, 3).map(s => {
                 let sAr = s;
-                if(s==="Math") sAr = (year==="3AS" && trackName==="Math") ? "رياضيات (مكثفة)" : "رياضيات"; else if(s==="Physics") sAr="علوم فيزيائية"; else if(s==="Biology" || s==="Science") sAr="علوم الطبيعة والحياة"; else if(s==="Arabic") sAr = (year==="3AS" && trackName==="Literature") ? "لغة عربية (مكثفة)" : "لغة عربية"; else if(s==="French") sAr="لغة فرنسية"; else if(s==="Computer Science") sAr="إعلام آلي"; else if(s==="Electrical Engineering") sAr="هندسة كهربائية"; else if(s==="Civil Engineering") sAr="هندسة مدنية"; else if(s==="Law") sAr="قانون"; else if(s==="Economics") sAr="اقتصاد ومانجمنت"; else if(s==="Accounting") sAr="تسيير محاسبي ومالي"; else if(s==="Third Language") sAr="لغة أجنبية ثالثة"; else if(s==="Philosophy") sAr="فلسفة"; else if(s==="Islamic Studies") sAr="تربية إسلامية"; else if(s==="History & Geography") sAr="تاريخ وجغرافيا";
+                if(s==="Math") sAr = "رياضيات"; else if(s==="Physics") sAr="علوم فيزيائية"; else if(s==="Biology" || s==="Science") sAr="علوم الطبيعة والحياة"; else if(s==="Arabic") sAr = "لغة عربية"; else if(s==="French") sAr="لغة فرنسية"; else if(s==="Computer Science") sAr="إعلام آلي"; else if(s==="Electrical Engineering") sAr="هندسة كهربائية"; else if(s==="Civil Engineering") sAr="هندسة مدنية"; else if(s==="Law") sAr="قانون"; else if(s==="Economics") sAr="اقتصاد ومانجمنت"; else if(s==="Accounting") sAr="تسيير محاسبي ومالي"; else if(s==="Third Language") sAr="لغة أجنبية ثالثة"; else if(s==="Philosophy") sAr="فلسفة"; else if(s==="Islamic Studies") sAr="تربية إسلامية"; else if(s==="History & Geography") sAr="تاريخ وجغرافيا";
                 return `<span>${sAr}</span>`;
             }).join('')}
             ${t.subjects.length > 3 ? `<span class="more">+${t.subjects.length - 3} أخرى</span>` : ''}
@@ -726,10 +2422,11 @@ function initTrackPage() {
   const bcYear = document.getElementById('bc-year');
   const bcTrack = document.getElementById('bc-track');
   
+  const isBacFlowTrack = window.location.pathname.includes('bac_track.html');
   if(titleEl) titleEl.textContent = arTrackName;
   if(descEl) descEl.textContent = trackData.description;
-  if(badgeEl) badgeEl.textContent = `${YEARS[year]?.badge || year} • ${arTrackName}`;
-  if(bcYear) { bcYear.textContent = YEARS[year]?.title || year; bcYear.href = `year.html?year=${year}`; }
+  if(badgeEl) badgeEl.textContent = `${isBacFlowTrack ? 'BAC' : (YEARS[year]?.badge || year)} • ${arTrackName}`;
+  if(bcYear) { bcYear.textContent = isBacFlowTrack ? 'البكالوريا' : (YEARS[year]?.title || year); bcYear.href = isBacFlowTrack ? 'bac.html' : `year.html?year=${year}`; }
   if(bcTrack) { bcTrack.textContent = arTrackName; }
   
   const container = document.getElementById('subjectsContainer');
@@ -742,15 +2439,16 @@ function initTrackPage() {
       const desc = s?.description || 'Subject description';
       const counts = s?.resourceCount || { lessons: 0, exercises: 0, exams: 0, channels: 0 };
       
-      const link = `subject.html?year=${year}&track=${encodeURIComponent(track)}&subject=${encodeURIComponent(subjectName)}`;
+      const isBacFlow = window.location.pathname.includes('bac_track.html');
+      const link = isBacFlow ? `bac_subject.html?track=${encodeURIComponent(track)}&subject=${encodeURIComponent(subjectName)}` : `subject.html?year=${year}&track=${encodeURIComponent(track)}&subject=${encodeURIComponent(subjectName)}`;
       const favId = `${year}-${track}-${subjectName}`;
       
       let sAr = subjectName;
-      if(subjectName==="Math") sAr = (year==="3AS" && track==="Math") ? "رياضيات (مكثفة)" : "رياضيات"; 
+      if(subjectName==="Math") sAr = "رياضيات"; 
       else if(subjectName==="Physics") sAr="علوم فيزيائية"; 
       else if(subjectName==="Biology" || subjectName==="Science") sAr="علوم الطبيعة والحياة";
       else if(subjectName==="Chemistry") sAr="الكيمياء";
-      else if(subjectName==="Arabic") sAr = (year==="3AS" && track==="Literature") ? "لغة عربية (مكثفة)" : "لغة عربية";
+      else if(subjectName==="Arabic") sAr = "لغة عربية";
       else if(subjectName==="French") sAr="لغة فرنسية";
       else if(subjectName==="English") sAr="لغة إنجليزية";
       else if(subjectName==="Philosophy") sAr="فلسفة";
@@ -798,11 +2496,11 @@ function initSubjectPage() {
   else if (track === "Common Literature") arTrackName = "جذع مشترك آداب";
 
   let sAr = subject;
-  if(subject==="Math") sAr = (year==="3AS" && track==="Math") ? "رياضيات (مكثفة)" : "رياضيات"; 
+  if(subject==="Math") sAr = "رياضيات"; 
   else if(subject==="Physics") sAr="علوم فيزيائية"; 
   else if(subject==="Biology" || subject==="Science") sAr="علوم الطبيعة والحياة";
   else if(subject==="Chemistry") sAr="الكيمياء";
-  else if(subject==="Arabic") sAr = (year==="3AS" && track==="Literature") ? "لغة عربية (مكثفة)" : "لغة عربية";
+  else if(subject==="Arabic") sAr = "لغة عربية";
   else if(subject==="French") sAr="لغة فرنسية";
   else if(subject==="English") sAr="لغة إنجليزية";
   else if(subject==="Philosophy") sAr="فلسفة";
@@ -822,8 +2520,10 @@ function initSubjectPage() {
   const bcTrack = document.getElementById('bc-track');
   const bcSubj = document.getElementById('bc-subj');
   
-  if(bcYear) { bcYear.textContent = YEARS[year]?.title || year; bcYear.href = `year.html?year=${year}`; }
-  if(bcTrack) { bcTrack.textContent = arTrackName; bcTrack.href = `track.html?year=${year}&track=${encodeURIComponent(track)}`; }
+  const isBacFlow = window.location.pathname.includes('bac_subject.html');
+  
+  if(bcYear) { bcYear.textContent = isBacFlow ? 'البكالوريا' : (YEARS[year]?.title || year); bcYear.href = isBacFlow ? 'bac.html' : `year.html?year=${year}`; }
+  if(bcTrack) { bcTrack.textContent = arTrackName; bcTrack.href = isBacFlow ? `bac_track.html?track=${encodeURIComponent(track)}` : `track.html?year=${year}&track=${encodeURIComponent(track)}`; }
   if(bcSubj) { bcSubj.textContent = sAr; }
   
   const iconEl = document.getElementById('sub-icon');
@@ -886,12 +2586,18 @@ function initSubjectPage() {
   };
 
   ['channels', 'lessons', 'exercises', 'exams', 'summaries'].forEach(cat => {
-    const tabEl = document.querySelector(`.tab[data-tab="${cat}"] .tab-count`);
-    if(tabEl) tabEl.textContent = data[cat]?.length || 0;
-    const statEl = document.getElementById(`stat-${cat}`);
-    if(statEl) statEl.innerHTML = (data[cat]?.length || 0) + ' ' + catNames[cat];
+    let itemsToRender = data[cat] || [];
     
-    renderResourceList(cat, data[cat] || [], subjectData.color);
+    if (cat === 'exams' && isBacFlow) {
+        itemsToRender = itemsToRender.filter(i => i.title.toLowerCase().includes('بكالوريا') || i.id.toLowerCase().includes('bac'));
+    }
+
+    const tabEl = document.querySelector(`.tab[data-tab="${cat}"] .tab-count`);
+    if(tabEl) tabEl.textContent = itemsToRender.length;
+    const statEl = document.getElementById(`stat-${cat}`);
+    if(statEl) statEl.innerHTML = itemsToRender.length + ' ' + catNames[cat];
+    
+    renderResourceList(cat, itemsToRender, subjectData.color);
   });
 }
 
@@ -955,39 +2661,42 @@ function renderResourceList(cat, items, color) {
       });
 
       let examsHtml = '';
+      const isBacFlow = window.location.pathname.includes('bac_subject.html');
       
-      // Official Baccalaureate Section (for 3AS)
+      // Official Baccalaureate Section
       if (year === '3AS' || official.length > 0) {
         examsHtml += `<div class="term-section">
-          <div class="term-header"><h3>الحوليات الرسمية</h3></div>
-          ${official.length > 0 ? official.map(i => renderItem(i, cat, icon, color)).join('') : renderEmptyTerm("لا توجد حوليات رسمية متوفرة حالياً لهذه المادة.")}
+          <div class="term-header"><h3>المواضيع</h3></div>
+          ${official.length > 0 ? official.map(i => renderItem(i, cat, icon, color)).join('') : renderEmptyTerm("لا توجد مواضيع متوفرة حالياً لهذه المادة.")}
         </div>`;
       }
 
-      // Term 1
-      examsHtml += `<div class="term-section">
-        <div class="term-header"><h3>الفصل الأول</h3></div>
-        ${term1.length > 0 ? term1.map(i => renderItem(i, cat, icon, color)).join('') : renderEmptyTerm("لا توجد اختبارات متوفرة للفصل الأول حالياً.")}
-      </div>`;
-
-      // Term 2
-      examsHtml += `<div class="term-section">
-        <div class="term-header"><h3>الفصل الثاني</h3></div>
-        ${term2.length > 0 ? term2.map(i => renderItem(i, cat, icon, color)).join('') : renderEmptyTerm("لا توجد اختبارات متوفرة للفصل الثاني حالياً.")}
-      </div>`;
-
-      // Term 3
-      examsHtml += `<div class="term-section">
-        <div class="term-header"><h3>الفصل الثالث</h3></div>
-        ${term3.length > 0 ? term3.map(i => renderItem(i, cat, icon, color)).join('') : renderEmptyTerm("لا توجد اختبارات متوفرة للفصل الثالث حالياً.")}
-      </div>`;
-
-      // General / Others
-      if (general.length > 0) {
+      if (!isBacFlow) {
+        // Term 1
         examsHtml += `<div class="term-section">
-          <div class="term-header"><h3>أخرى</h3></div>
-          ${general.map(i => renderItem(i, cat, icon, color)).join('')}
+          <div class="term-header"><h3>الفصل الأول</h3></div>
+          ${term1.length > 0 ? term1.map(i => renderItem(i, cat, icon, color)).join('') : renderEmptyTerm("لا توجد اختبارات متوفرة للفصل الأول حالياً.")}
         </div>`;
+
+        // Term 2
+        examsHtml += `<div class="term-section">
+          <div class="term-header"><h3>الفصل الثاني</h3></div>
+          ${term2.length > 0 ? term2.map(i => renderItem(i, cat, icon, color)).join('') : renderEmptyTerm("لا توجد اختبارات متوفرة للفصل الثاني حالياً.")}
+        </div>`;
+
+        // Term 3
+        examsHtml += `<div class="term-section">
+          <div class="term-header"><h3>الفصل الثالث</h3></div>
+          ${term3.length > 0 ? term3.map(i => renderItem(i, cat, icon, color)).join('') : renderEmptyTerm("لا توجد اختبارات متوفرة للفصل الثالث حالياً.")}
+        </div>`;
+
+        // General / Others
+        if (general.length > 0) {
+          examsHtml += `<div class="term-section">
+            <div class="term-header"><h3>أخرى</h3></div>
+            ${general.map(i => renderItem(i, cat, icon, color)).join('')}
+          </div>`;
+        }
       }
 
       listEl.innerHTML = examsHtml;
