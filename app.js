@@ -227,7 +227,7 @@ const SUBJECTS = {
 const MASTER_CHANNELS = {
   "Math": [
     { id: "ch-math-n", title: "الأستاذ نور الدين", desc: "أكبر مرجع لمادة الرياضيات في الجزائر - جميع الوحدات والبكالوريات", meta: '<i class="fa-solid fa-video"></i> +300 فيديو • <i class="fa-solid fa-star" style="color: gold"></i> 5.0', name: "ن", bg: "#DC2626", url: "https://youtube.com/@noureddine2013?si=pZLJoUBj08L4bQ8t" },
-    { id: "ch-math-a", title: "أكاديمية الرياضيات", desc: "دروس مبسطة وتمارين متنوعة لجميع مستويات الثانوي", meta: '<i class="fa-solid fa-video"></i> +150 فيديو', name: "أ", bg: "#2563EB", url: "https://youtube.com/channel/UCnMzRcYSang1SXOZLH77ljw?si=9cHHjw7LIfv1oGjf" },
+    { id: "ch-math-a", title: "الاستاذ عبد الباسط", desc: "دروس مبسطة وتمارين متنوعة لجميع مستويات الثانوي", meta: '<i class="fa-solid fa-video"></i> +150 فيديو', name: "أ", bg: "#2563EB", url: "https://youtube.com/channel/UCnMzRcYSang1SXOZLH77ljw?si=9cHHjw7LIfv1oGjf" },
     { id: "ch-math-w", title: "الأستاذ وليد بومرزوق", desc: "شرح دقيق وحلول مفصلة للسلاسل التدريبية المكثفة", meta: '<i class="fa-solid fa-video"></i> +120 فيديو', name: "و", bg: "#059669", url: "https://youtube.com/@maths07-walidboumerzoug?si=nN-DCWen_d5o0Uwn" }
   ],
   "Physics": [
@@ -254,7 +254,7 @@ const MASTER_CHANNELS = {
   ],
   "Arabic": [
     { id: "ch-ar-m", title: "الأستاذ مبروك بوبكر", desc: "كنز في اللغة العربية، البلاغة، القواعد وتحليل النصوص", meta: '<i class="fa-solid fa-video"></i> +300 فيديو', name: "م", bg: "#D97706", url: "https://youtube.com/@mabrouk_boubaker?si=fymkVcjpqtr7wDNS" },
-    { id: "ch-ar-d", title: "لغة الضاد", desc: "تخصص في تبسيط الأدب العربي وقواعده للثانوي", meta: '<i class="fa-solid fa-video"></i> +100 فيديو', name: "ض", bg: "#16A34A", url: "https://youtube.com/channel/UCEpuRLQpVVre6nwaV6cRjrw?si=CxTMFQzd-NTSiWNu" },
+    { id: "ch-ar-d", title: "الاستاذ شريفي", desc: "تخصص في تبسيط الأدب العربي وقواعده للثانوي", meta: '<i class="fa-solid fa-video"></i> +100 فيديو', name: "ش", bg: "#16A34A", url: "https://youtube.com/channel/UCEpuRLQpVVre6nwaV6cRjrw?si=CxTMFQzd-NTSiWNu" },
     { id: "ch-ar-h", title: "الأستاذ حيقون", desc: "حلول البكالوريا ومنهجية الإجابة الخاصة بمادة اللغة العربية", meta: '<i class="fa-solid fa-video"></i> +180 فيديو', name: "ح", bg: "#2563EB", url: "https://www.youtube.com/@prof_haigoune" }
   ]
 };
