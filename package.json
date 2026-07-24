@@ -1,0 +1,23 @@
+{
+  "name": "edu-dz",
+  "version": "1.0.0",
+  "description": "Algerian educational platform for high school students",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "start": "python3 -m http.server 8000",
+    "lint": "echo 'No linter configured for vanilla HTML/CSS/JS project'",
+    "test": "echo 'No tests configured yet'"
+  },
+  "keywords": [
+    "education",
+    "algeria",
+    "high-school",
+    "baccalaureate"
+  ],
+  "author": "Mohammed Abba",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
