@@ -59,32 +59,53 @@
         <ol>
           <li><a href="index.html">الرئيسية</a></li>
           <li class="separator"><i class="fa-solid fa-chevron-left" style="font-size: 0.8em"></i></li>
-          <li aria-current="page">المواد المفضلة</li>
+          <li aria-current="page">المفضلة</li>
         </ol>
       </nav>
       
       <div class="page-header-content">
         <div class="year-badge" style="background: var(--bg-sidebar); border: 1px solid var(--border); color: var(--text-primary)"><i class="fa-solid fa-heart" style="color: #ef4444; margin-left: 4px;"></i> المفضلة</div>
-        <h1>المواد المفضلة</h1>
+        <h1>مكتبتي الخاصة</h1>
         <p style="color: var(--text-secondary); max-width: 600px;">
-          تجد هنا جميع المواد التي قمت بحفظها للوصول السريع إليها.
+          كل ما قمت بحفظه من مواد، قنوات، واختبارات في مكان واحد منظم.
         </p>
       </div>
     </div>
   </div>
 
-  <!-- Subjects Section -->
-  <section class="subjects-section" style="padding-bottom: 5rem;">
+  <!-- Favorites Content -->
+  <section class="favorites-section" style="padding-bottom: 5rem;">
     <div class="container">
-      <div class="auto-grid" id="favoritesContainer" style="--min-col: 220px; gap: 1.5rem;">
-        <!-- Injected via JS -->
+      
+      <!-- Subjects Section -->
+      <div class="fav-category-section" id="section-subjects">
+        <div class="section-title-wrap">
+          <h2 class="category-title"><i class="fa-solid fa-book"></i> المواد الدراسية</h2>
+          <span class="category-count" id="count-subjects">0</span>
+        </div>
+        <div class="auto-grid" id="subjectsFavContainer" style="--min-col: 250px; gap: 1.5rem;">
+          <!-- Subjects injected here -->
+        </div>
       </div>
+
+      <!-- Channels Section -->
+      <div class="fav-category-section" id="section-channels">
+        <div class="section-title-wrap">
+          <h2 class="category-title"><i class="fa-brands fa-youtube"></i> قنوات اليوتيوب</h2>
+          <span class="category-count" id="count-channels">0</span>
+        </div>
+        <div class="channels-grid" id="channelsFavContainer">
+          <!-- Channels injected here -->
+        </div>
+      </div>
+
+
       
       <div id="favoritesEmptyState" class="empty-state" style="display: none; padding: 4rem 1rem;">
         <div class="empty-icon" style="color: var(--border)"><i class="fa-regular fa-heart"></i></div>
-        <h3>لا توجد مواد مفضلة</h3>
-        <p>قم باستعراض المواد الدراسية واضغط على أيقونة القلب لإضافتها هنا لتصل إليها بسرعة لاحقاً.</p>
-        <a href="index.html" class="btn btn-primary" style="margin-top:1rem">تصفح المواد <i class="fa-solid fa-arrow-left" style="margin-right: 6px;"></i></a>
+        <h3>مكتبتك فارغة حالياً</h3>
+        <p>قم باستعراض المحتوى واضغط على أيقونة القلب لحفظ أي شيء هنا.</p>
+        <a href="index.html" class="btn btn-primary" style="margin-top:1rem">تصفح المنصة <i class="fa-solid fa-arrow-left" style="margin-right: 6px;"></i></a>
       </div>
     </div>
   </section>

@@ -1862,35 +1862,123 @@ p {
 }
 
 /* Responsive Overrides for Hero */
-@media (max-width: 992px) {
-  .hero {
-    padding: 3rem 0;
-    min-height: auto;
-  }
-  .hero-container {
-    flex-direction: column-reverse;
-    text-align: center;
-    gap: 3rem;
-  }
-  .hero-text {
-    text-align: center;
-  }
-  .hero-subtitle {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .hero-actions {
-    justify-content: center;
-  }
-  .hero-stats {
-    justify-content: center;
-    gap: 1.5rem;
-  }
-  .image-wrapper {
-    max-width: 380px;
-  }
-  .hero-title {
-    font-size: var(--text-3xl);
-  }
+/* ============================================================
+   22. Favorites Page & Tasks
+   ============================================================ */
+.fav-category-section {
+    margin-bottom: 4rem;
+    animation: fadeIn 0.6s ease-out backwards;
+}
+
+.section-title-wrap {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.category-title {
+    font-size: var(--text-xl);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.category-count {
+    background: var(--primary-light);
+    color: var(--primary);
+    padding: 0.2rem 0.75rem;
+    border-radius: 99px;
+    font-size: var(--text-sm);
+    font-weight: 700;
+}
+
+/* Tasks */
+.task-input-group {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    background: var(--bg-card);
+    padding: 0.5rem;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+}
+
+.task-input-group input {
+    flex-grow: 1;
+    border: none;
+    background: transparent;
+    padding: 0.5rem 1rem;
+    font-size: var(--text-base);
+    color: var(--text-primary);
+    outline: none;
+}
+
+.tasks-list {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.task-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    padding: 1rem 1.25rem;
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: var(--transition-base);
+    animation: slideInLeft 0.3s ease-out backwards;
+}
+
+.task-item:hover {
+    border-color: var(--primary);
+    transform: translateX(-4px);
+    box-shadow: var(--shadow-sm);
+}
+
+.task-text {
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.btn-task-delete {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: var(--radius-sm);
+    transition: var(--transition-base);
+}
+
+.btn-task-delete:hover {
+    color: var(--danger);
+    background: var(--languages-light);
+}
+
+/* Floating Favorite for Channels */
+.floating-fav {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(4px);
+    box-shadow: var(--shadow-sm);
+    border-radius: 50% !important;
+    z-index: 10;
+}
+
+[data-theme="dark"] .floating-fav {
+    background: rgba(var(--bg-card-rgb), 0.8);
+}
+
+@keyframes slideInLeft {
+    from { opacity: 0; transform: translateX(20px); }
+    to { opacity: 1; transform: translateX(0); }
 }
 

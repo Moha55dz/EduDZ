@@ -88,7 +88,6 @@
         <div class="stat-pill"><i class="fa-solid fa-file-lines" style="margin-left:4px"></i> <span id="stat-lessons">0 دروس</span></div>
         <div class="stat-pill"><i class="fa-solid fa-pen-to-square" style="margin-left:4px"></i> <span id="stat-exercises">0 تمارين</span></div>
         <div class="stat-pill"><i class="fa-solid fa-chart-bar" style="margin-left:4px"></i> <span id="stat-exams">0 اختبارات</span></div>
-        <div class="stat-pill"><i class="fa-solid fa-brain" style="margin-left:4px"></i> <span id="stat-summaries">0 ملخصات</span></div>
       </div>
     </div>
   </div>
@@ -117,13 +116,9 @@
           <span class="tab-label">اختبارات</span>
           <span class="tab-count">0</span>
         </button>
-        <button class="tab" data-tab="summaries" role="tab" aria-selected="false">
-          <span class="tab-icon"><i class="fa-solid fa-brain"></i></span>
-          <span class="tab-label">ملخصات</span>
-          <span class="tab-count">0</span>
-        </button>
-      </div>
 
+        </div>
+      </div>
     </div>
   </div>
 
@@ -146,22 +141,18 @@
       </div>
     </div>
 
+
     <!-- Lessons Panel -->
     <div class="tab-panel" id="panel-lessons" role="tabpanel">
       <div class="panel-intro">
         <h2>دروس</h2>
-        <p style="color: var(--text-secondary)">دورات بصيغة PDF مفصلة من مصادر موثوقة</p>
+        <p style="color: var(--text-secondary)">دروس بصيغة PDF مفصلة من مصادر موثوقة</p>
       </div>
-      
-
-      
       <div class="resource-list" id="list-lessons"></div>
-      
       <div class="empty-state" style="display:none">
         <div class="empty-icon"><i class="fa-solid fa-box-open"></i></div>
-        <h3>لا توجد نتائج مطابقة</h3>
-        <p>جرب تغيير الكلمات المفتاحية للبحث.</p>
-        <button class="btn btn-primary" onclick="clearSearch()" style="margin-top:1rem">إلغاء البحث</button>
+        <h3>لا توجد دروس متاحة</h3>
+        <p>لم تتم إضافة دروس لهذه المادة بعد.</p>
       </div>
     </div>
 
@@ -171,16 +162,11 @@
         <h2>تمارين وسلاسل</h2>
         <p style="color: var(--text-secondary)">سلاسل تمارين للتمرن من الأساسيات حتى مواضيع البكالوريا الصعبة</p>
       </div>
-      
-
-      
       <div class="resource-list" id="list-exercises"></div>
-      
       <div class="empty-state" style="display:none">
         <div class="empty-icon"><i class="fa-solid fa-box-open"></i></div>
-        <h3>لا توجد نتائج مطابقة</h3>
-        <p>جرب تغيير الكلمات المفتاحية للبحث.</p>
-        <button class="btn btn-primary" onclick="clearSearch()" style="margin-top:1rem">إلغاء البحث</button>
+        <h3>لا توجد تمارين متاحة</h3>
+        <p>لم تتم إضافة تمارين لهذه المادة بعد.</p>
       </div>
     </div>
 
@@ -188,29 +174,13 @@
     <div class="tab-panel" id="panel-exams" role="tabpanel">
       <div class="panel-intro">
         <h2>اختبارات</h2>
-        <p style="color: var(--text-secondary)">مواضيع البكالوريا الرسمية السابقة واختبارات تجريبية مع الحلول</p>
+        <p style="color: var(--text-secondary)">اختبارات دورية ومواضيع تجريبية للتحضير للامتحانات</p>
       </div>
       <div class="resource-list" id="list-exams"></div>
       <div class="empty-state" style="display:none">
         <div class="empty-icon"><i class="fa-solid fa-box-open"></i></div>
-        <h3>لا توجد نتائج مطابقة</h3>
-        <p>جرب تغيير الكلمات المفتاحية للبحث.</p>
-        <button class="btn btn-primary" onclick="clearSearch()" style="margin-top:1rem">إلغاء البحث</button>
-      </div>
-    </div>
-
-    <!-- Summaries Panel -->
-    <div class="tab-panel" id="panel-summaries" role="tabpanel">
-      <div class="panel-intro">
-        <h2>ملخصات</h2>
-        <p style="color: var(--text-secondary)">أوراق وقوانين سريعة المراجعة لتسهيل الحفظ قبل الامتحانات</p>
-      </div>
-      <div class="resource-list" id="list-summaries"></div>
-      <div class="empty-state" style="display:none">
-        <div class="empty-icon"><i class="fa-solid fa-box-open"></i></div>
-        <h3>لا توجد نتائج مطابقة</h3>
-        <p>جرب تغيير الكلمات المفتاحية للبحث.</p>
-        <button class="btn btn-primary" onclick="clearSearch()" style="margin-top:1rem">إلغاء البحث</button>
+        <h3>لا توجد اختبارات متاحة</h3>
+        <p>لم تتم إضافة اختبارات لهذه المادة بعد.</p>
       </div>
     </div>
 
