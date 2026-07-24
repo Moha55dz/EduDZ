@@ -3,46 +3,46 @@
 // ============================================================
 
 const YEARS = {
-  "1AS": { title: "أولى ثانوي", desc: "السنة الأولى من التعليم الثانوي", badge: "1AS" },
-  "2AS": { title: "ثانية ثانوي", desc: "السنة الثانية - تحضير للبكالوريا", badge: "2AS" },
-  "3AS": { title: "ثالثة ثانوي", desc: "القسم النهائي — التحضير لشهادة البكالوريا", badge: "3AS" }
+  "1AS": { title: "أولى ثانوي", desc: "", badge: "1AS" },
+  "2AS": { title: "ثانية ثانوي", desc: "", badge: "2AS" },
+  "3AS": { title: "ثالثة ثانوي", desc: "", badge: "3AS" }
 };
 
 const TRACKS = {
   "Sciences": {
     icon: '<i class="fa-solid fa-flask"></i>',
     color: "#7C3AED",
-    description: "العلوم الفيزيائية والطبيعية والرياضيات الدقيقة",
+    description: "",
     subjects: ["Math", "Physics", "Science", "Arabic", "French", "English", "Islamic Studies", "Philosophy", "History & Geography"]
   },
   "Math": {
     icon: '<i class="fa-solid fa-ruler-combined"></i>',
     color: "#2563EB",
-    description: "دراسة معمقة في الرياضيات مع أساسيات علمية وتطبيقية",
+    description: "",
     subjects: ["Math", "Physics", "Science", "Arabic", "French", "English", "Islamic Studies", "Philosophy", "History & Geography"]
   },
   "Technical Math": {
     icon: '<i class="fa-solid fa-gear"></i>',
     color: "#059669",
-    description: "الرياضيات التطبيقية والهندسة التكنولوجية",
+    description: "",
     subjects: ["Math", "Physics", "Electrical Engineering", "Civil Engineering", "Arabic", "French", "English", "Islamic Studies", "Philosophy", "History & Geography"]
   },
   "Literature": {
     icon: '<i class="fa-solid fa-book-open"></i>',
     color: "#D97706",
-    description: "الأدب العربي، الفلسفة، والعلوم الإنسانية",
+    description: "",
     subjects: ["Arabic", "Philosophy", "History & Geography", "French", "English", "Islamic Studies", "Math"]
   },
   "Languages": {
     icon: '<i class="fa-solid fa-earth-africa"></i>',
     color: "#DC2626",
-    description: "فهم عميق للغات الأجنبية (الفرنسية، الإنجليزية، والثالثة)",
+    description: "",
     subjects: ["Arabic", "French", "English", "Third Language", "Math", "Philosophy", "History & Geography", "Islamic Studies"]
   },
   "Management": {
     icon: '<i class="fa-solid fa-chart-pie"></i>',
     color: "#0891B2",
-    description: "التسيير المالي والمحاسبي والاقتصاد والقانون",
+    description: "",
     subjects: ["Law", "Economics", "Accounting", "Math", "Arabic", "French", "English", "Islamic Studies", "Philosophy", "History & Geography"]
   }
 };
@@ -51,13 +51,13 @@ const TRACKS_1AS = {
   "Common Science": {
     icon: '<i class="fa-solid fa-microscope"></i>',
     color: "#2563EB",
-    description: "مواد علمية وتكنولوجية لتأسيس مسار علمي متين",
+    description: "",
     subjects: ["Math", "Physics", "Science", "Computer Science", "Technology", "Arabic", "French", "English", "Islamic Studies", "History & Geography"]
   },
   "Common Literature": {
     icon: '<i class="fa-solid fa-book-open"></i>',
     color: "#D97706",
-    description: "مواد أدبية إنسانية ولغات لتأسيس مسار أدبي",
+    description: "",
     subjects: ["Arabic", "History & Geography", "Islamic Studies", "French", "English", "Math", "Science", "Physics"]
   }
 };
@@ -66,37 +66,37 @@ const TRACKS_2AS = {
   "Sciences": {
     icon: '<i class="fa-solid fa-flask"></i>',
     color: "#7C3AED",
-    description: "العلوم الفيزيائية والطبيعية والرياضيات",
+    description: "",
     subjects: ["Math", "Physics", "Science", "Arabic", "French", "English", "Islamic Studies", "History & Geography"]
   },
   "Math": {
     icon: '<i class="fa-solid fa-ruler-combined"></i>',
     color: "#2563EB",
-    description: "دراسة معمقة في الرياضيات مع أساسيات علمية وتطبيقية",
+    description: "",
     subjects: ["Math", "Physics", "Science", "Arabic", "French", "English", "Islamic Studies", "History & Geography"]
   },
   "Technical Math": {
     icon: '<i class="fa-solid fa-gear"></i>',
     color: "#059669",
-    description: "الرياضيات التطبيقية والهندسة التكنولوجية",
+    description: "",
     subjects: ["Math", "Physics", "Electrical Engineering", "Civil Engineering", "Arabic", "French", "English", "Islamic Studies", "History & Geography"]
   },
   "Literature": {
     icon: '<i class="fa-solid fa-book-open"></i>',
     color: "#D97706",
-    description: "الأدب العربي، الفلسفة، والعلوم الإنسانية",
+    description: "",
     subjects: ["Arabic", "Philosophy", "History & Geography", "Physics", "Science", "French", "English", "Islamic Studies", "Math"]
   },
   "Languages": {
     icon: '<i class="fa-solid fa-earth-africa"></i>',
     color: "#DC2626",
-    description: "فهم عميق للغات الأجنبية",
+    description: "",
     subjects: ["Arabic", "French", "English", "Third Language", "Math", "History & Geography", "Islamic Studies"]
   },
   "Management": {
     icon: '<i class="fa-solid fa-chart-pie"></i>',
     color: "#0891B2",
-    description: "التسيير المالي والمحاسبي والاقتصاد والقانون",
+    description: "",
     subjects: ["Law", "Economics", "Accounting", "Math", "Arabic", "French", "English", "Islamic Studies", "History & Geography"]
   }
 };
@@ -105,121 +105,121 @@ const SUBJECTS = {
   "Math": {
     icon: '<i class="fa-solid fa-ruler-combined"></i>',
     color: "#2563EB",
-    description: "الجبر، الدّوال، الهندسة المكانية، والإحصاء",
+    description: "",
     resourceCount: { lessons: 24, exercises: 48, exams: 12, channels: 8 }
   },
   "Physics": {
     icon: '<i class="fa-solid fa-bolt"></i>',
     color: "#7C3AED",
-    description: "الميكانيك، الكهرباء، تطور الجمل والظواهر النووية",
+    description: "",
     resourceCount: { lessons: 20, exercises: 35, exams: 10, channels: 6 }
   },
   "Biology": {
     icon: '<i class="fa-solid fa-dna"></i>',
     color: "#059669",
-    description: "تركيب البروتين، المناعة، والنشاط الإنزيمي",
+    description: "",
     resourceCount: { lessons: 18, exercises: 30, exams: 8, channels: 5 }
   },
   "Chemistry": {
     icon: '<i class="fa-solid fa-flask-vial"></i>',
     color: "#059669",
-    description: "الكيمياء العضوية، المعايرة، وتفاعلات الأكسدة والإرجاع",
+    description: "",
     resourceCount: { lessons: 15, exercises: 25, exams: 5, channels: 3 }
   },
   "Arabic": {
     icon: '<i class="fa-solid fa-scroll"></i>',
     color: "#D97706",
-    description: "الأدب، القواعد، البلاغة، والتحليل النصّي",
+    description: "",
     resourceCount: { lessons: 15, exercises: 25, exams: 10, channels: 4 }
   },
   "French": {
     icon: '<i class="fa-solid fa-language"></i>',
     color: "#DC2626",
-    description: "النصوص التاريخية الحجاجية والمقال",
+    description: "",
     resourceCount: { lessons: 14, exercises: 22, exams: 9, channels: 5 }
   },
   "English": {
     icon: '<i class="fa-solid fa-language"></i>',
     color: "#0EA5E9",
-    description: "القواعد، المفردات، التعبير الكتابي وقراءة النصوص",
+    description: "",
     resourceCount: { lessons: 12, exercises: 20, exams: 8, channels: 4 }
   },
   "Philosophy": {
     icon: '<i class="fa-solid fa-brain"></i>',
     color: "#8B5CF6",
-    description: "المنطق، الأخلاق، الإبستمولوجيا والميتافيزيقا",
+    description: "",
     resourceCount: { lessons: 16, exercises: 18, exams: 7, channels: 3 }
   },
   "History & Geography": {
     icon: '<i class="fa-solid fa-map-location-dot"></i>',
     color: "#10B981",
-    description: "تاريخ الجزائر المعاصر والعالم، والجغرافيا الاقتصادية",
+    description: "",
     resourceCount: { lessons: 20, exercises: 24, exams: 10, channels: 4 }
   },
   "Islamic Studies": {
     icon: '<i class="fa-solid fa-mosque"></i>',
     color: "#16A34A",
-    description: "نصوص قرآنية، أحاديث، والفقه الإسلامي",
+    description: "",
     resourceCount: { lessons: 12, exercises: 15, exams: 6, channels: 2 }
   },
   "Spanish": {
     icon: '<i class="fa-solid fa-language"></i>',
     color: "#FACC15",
-    description: "أساسيات اللغة الإسبانية والنصوص الأدبية",
+    description: "",
     resourceCount: { lessons: 10, exercises: 15, exams: 5, channels: 2 }
   },
   "Technology": {
     icon: '<i class="fa-solid fa-lightbulb"></i>',
     color: "#475569",
-    description: "مبادئ الهندسة الكهربائية والميكانيكية",
+    description: "",
     resourceCount: { lessons: 20, exercises: 35, exams: 12, channels: 5 }
   },
   "Science": {
     icon: '<i class="fa-solid fa-microscope"></i>',
     color: "#7C3AED",
-    description: "العلوم الطبيعية العامة",
+    description: "",
     resourceCount: { lessons: 15, exercises: 20, exams: 8, channels: 4 }
   },
   "Computer Science": {
     icon: '<i class="fa-solid fa-laptop-code"></i>',
     color: "#475569",
-    description: "الخوارزميات، البرمجة، والشبكات",
+    description: "",
     resourceCount: { lessons: 10, exercises: 15, exams: 5, channels: 2 }
   },
   "Electrical Engineering": {
     icon: '<i class="fa-solid fa-plug"></i>',
     color: "#F59E0B",
-    description: "مبادئ الهندسة الكهربائية والدارات",
+    description: "",
     resourceCount: { lessons: 10, exercises: 20, exams: 5, channels: 2 }
   },
   "Civil Engineering": {
     icon: '<i class="fa-solid fa-building"></i>',
     color: "#14B8A6",
-    description: "مبادئ البناء والهندسة المدنية",
+    description: "",
     resourceCount: { lessons: 10, exercises: 20, exams: 5, channels: 2 }
   },
   "Law": {
     icon: '<i class="fa-solid fa-scale-balanced"></i>',
     color: "#475569",
-    description: "مدخل ومبادئ القانون العام والخاص",
+    description: "",
     resourceCount: { lessons: 15, exercises: 10, exams: 5, channels: 2 }
   },
   "Economics": {
     icon: '<i class="fa-solid fa-chart-line"></i>',
     color: "#0284C7",
-    description: "الاقتصاد الجزئي والكلي والمانجمنت",
+    description: "",
     resourceCount: { lessons: 15, exercises: 15, exams: 5, channels: 2 }
   },
   "Accounting": {
     icon: '<i class="fa-solid fa-coins"></i>',
     color: "#16A34A",
-    description: "التسيير المالي والمحاسبي والتدقيق",
+    description: "",
     resourceCount: { lessons: 20, exercises: 25, exams: 5, channels: 3 }
   },
   "Third Language": {
     icon: '<i class="fa-solid fa-language"></i>',
     color: "#F43F5E",
-    description: "اللغة الأجنبية الثالثة",
+    description: "",
     resourceCount: { lessons: 10, exercises: 15, exams: 5, channels: 2 }
   }
 };
@@ -810,7 +810,7 @@ function initYearPage() {
   
   const isBacFlowGlob = window.location.pathname.includes('bac.html');
   if(titleEl) titleEl.textContent = isBacFlowGlob ? 'البكالوريا' : yearData.title;
-  if(descEl) descEl.textContent = isBacFlowGlob ? 'مواضيع وحلول بكالوريا سابقة' : yearData.desc;
+  if(descEl) descEl.style.display = 'none';
   if(badgeEl) badgeEl.textContent = isBacFlowGlob ? 'BAC' : yearData.badge;
   if(bcYear) { bcYear.textContent = isBacFlowGlob ? 'البكالوريا' : yearData.title; bcYear.href = isBacFlowGlob ? 'bac.html' : `year.html?year=${year}`; }
   
@@ -882,7 +882,7 @@ function initTrackPage() {
   
   const isBacFlowTrack = window.location.pathname.includes('bac_track.html');
   if(titleEl) titleEl.textContent = arTrackName;
-  if(descEl) descEl.textContent = trackData.description;
+  if(descEl) descEl.style.display = 'none';
   if(badgeEl) badgeEl.textContent = `${isBacFlowTrack ? 'BAC' : (YEARS[year]?.badge || year)} • ${arTrackName}`;
   if(bcYear) { bcYear.textContent = isBacFlowTrack ? 'البكالوريا' : (YEARS[year]?.title || year); bcYear.href = isBacFlowTrack ? 'bac.html' : `year.html?year=${year}`; }
   if(bcTrack) { bcTrack.textContent = arTrackName; }
@@ -999,7 +999,7 @@ function initSubjectPage() {
   const titleEl = document.getElementById('sub-title');
   const descEl = document.getElementById('sub-desc');
   if(titleEl) titleEl.textContent = sAr;
-  if(descEl) descEl.textContent = `${subjectData.description} لطلاب السنة ${YEARS[year]?.title || year} لشعبة ${arTrackName}.`;
+  if(descEl) descEl.style.display = 'none';
   
   const favBtn = document.getElementById('favSubjectBtn');
   if(favBtn) {
