@@ -309,172 +309,322 @@ RESOURCES["2AS-Technical Math-Physics"] = RESOURCES["2AS-Sciences-Physics"];
 // AUTO INJECTED BAC EXAMS
 if (!RESOURCES['3AS-Literature-Islamic Studies']) RESOURCES['3AS-Literature-Islamic Studies'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
 RESOURCES['3AS-Literature-Islamic Studies'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Languages-Islamic Studies']) RESOURCES['3AS-Languages-Islamic Studies'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Languages-Islamic Studies'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Management-Islamic Studies']) RESOURCES['3AS-Management-Islamic Studies'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Management-Islamic Studies'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Math-Islamic Studies']) RESOURCES['3AS-Math-Islamic Studies'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Math-Islamic Studies'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Sciences-Islamic Studies']) RESOURCES['3AS-Sciences-Islamic Studies'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Sciences-Islamic Studies'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Technical Math-Islamic Studies']) RESOURCES['3AS-Technical Math-Islamic Studies'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Technical Math-Islamic Studies'].exams.push(...[
-  ]);
+  { id: "islamia-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة اداب و فلسفة/اسلامية/islamia-2023.pdf" },
+  { id: "islamia-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة اداب و فلسفة/اسلامية/islamia-2024.pdf" },
+  { id: "islamia-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة اداب و فلسفة/اسلامية/islamia-2025.pdf" },
+]);
 if (!RESOURCES['3AS-Literature-English']) RESOURCES['3AS-Literature-English'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
 RESOURCES['3AS-Literature-English'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Management-English']) RESOURCES['3AS-Management-English'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Management-English'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Math-English']) RESOURCES['3AS-Math-English'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Math-English'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Sciences-English']) RESOURCES['3AS-Sciences-English'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Sciences-English'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Technical Math-English']) RESOURCES['3AS-Technical Math-English'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Technical Math-English'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Languages-English']) RESOURCES['3AS-Languages-English'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Languages-English'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Literature-Third Language']) RESOURCES['3AS-Literature-Third Language'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Literature-Third Language'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Languages-Third Language']) RESOURCES['3AS-Languages-Third Language'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Languages-Third Language'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Management-Third Language']) RESOURCES['3AS-Management-Third Language'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Management-Third Language'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Math-Third Language']) RESOURCES['3AS-Math-Third Language'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Math-Third Language'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Sciences-Third Language']) RESOURCES['3AS-Sciences-Third Language'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Sciences-Third Language'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Technical Math-Third Language']) RESOURCES['3AS-Technical Math-Third Language'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Technical Math-Third Language'].exams.push(...[
-  ]);
+  { id: "dzexams-bac-anglais-1096571", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة اداب و فلسفة/انجليزية/dzexams-bac-anglais-1096571.pdf" },
+  { id: "dzexams-bac-anglais-206010", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة اداب و فلسفة/انجليزية/dzexams-bac-anglais-206010.pdf" },
+  { id: "dzexams-bac-anglais-2077403", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة اداب و فلسفة/انجليزية/dzexams-bac-anglais-2077403.pdf" },
+]);
 if (!RESOURCES['3AS-Literature-History & Geography']) RESOURCES['3AS-Literature-History & Geography'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
 RESOURCES['3AS-Literature-History & Geography'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Management-History & Geography']) RESOURCES['3AS-Management-History & Geography'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Management-History & Geography'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Math-History & Geography']) RESOURCES['3AS-Math-History & Geography'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Math-History & Geography'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Sciences-History & Geography']) RESOURCES['3AS-Sciences-History & Geography'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Sciences-History & Geography'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Technical Math-History & Geography']) RESOURCES['3AS-Technical Math-History & Geography'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Technical Math-History & Geography'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Languages-History & Geography']) RESOURCES['3AS-Languages-History & Geography'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Languages-History & Geography'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Technical Math-Math']) RESOURCES['3AS-Technical Math-Math'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Technical Math-Math'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Math-Math']) RESOURCES['3AS-Math-Math'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Math-Math'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Sciences-Math']) RESOURCES['3AS-Sciences-Math'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Sciences-Math'].exams.push(...[
-  ]);
+  { id: "dzexams-bac-histoire-geographie-1029951", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة اداب و فلسفة/تاريخ و جغرافيا/dzexams-bac-histoire-geographie-1029951.pdf" },
+  { id: "dzexams-bac-histoire-geographie-1186851", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة اداب و فلسفة/تاريخ و جغرافيا/dzexams-bac-histoire-geographie-1186851.pdf" },
+  { id: "dzexams-bac-histoire-geographie-487973", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة اداب و فلسفة/تاريخ و جغرافيا/dzexams-bac-histoire-geographie-487973.pdf" },
+]);
+if (!RESOURCES['3AS-Literature-Math']) RESOURCES['3AS-Literature-Math'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Literature-Math'].exams.push(...[
+  { id: "dzexams-bac-mathematiques-1061072", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة اداب و فلسفة/رياضيات/dzexams-bac-mathematiques-1061072.pdf" },
+  { id: "dzexams-bac-mathematiques-1376623", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة اداب و فلسفة/رياضيات/dzexams-bac-mathematiques-1376623.pdf" },
+  { id: "dzexams-bac-mathematiques-758265", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة اداب و فلسفة/رياضيات/dzexams-bac-mathematiques-758265.pdf" },
+]);
 if (!RESOURCES['3AS-Literature-Arabic']) RESOURCES['3AS-Literature-Arabic'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
 RESOURCES['3AS-Literature-Arabic'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Management-Arabic']) RESOURCES['3AS-Management-Arabic'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Management-Arabic'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Math-Arabic']) RESOURCES['3AS-Math-Arabic'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Math-Arabic'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Sciences-Arabic']) RESOURCES['3AS-Sciences-Arabic'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Sciences-Arabic'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Technical Math-Arabic']) RESOURCES['3AS-Technical Math-Arabic'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Technical Math-Arabic'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Languages-Arabic']) RESOURCES['3AS-Languages-Arabic'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Languages-Arabic'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Math-Science']) RESOURCES['3AS-Math-Science'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Math-Science'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Sciences-Science']) RESOURCES['3AS-Sciences-Science'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Sciences-Science'].exams.push(...[
-  ]);
+  { id: "dzexams-bac-arabe-1333181", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة اداب و فلسفة/عربية/dzexams-bac-arabe-1333181.pdf" },
+  { id: "dzexams-bac-arabe-1915059", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة اداب و فلسفة/عربية/dzexams-bac-arabe-1915059.pdf" },
+  { id: "dzexams-bac-arabe-700885", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة اداب و فلسفة/عربية/dzexams-bac-arabe-700885.pdf" },
+]);
 if (!RESOURCES['3AS-Literature-French']) RESOURCES['3AS-Literature-French'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
 RESOURCES['3AS-Literature-French'].exams.push(...[
-  ]);
+  { id: "dzexams-bac-francais-1190564", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة اداب و فلسفة/فرنسية/dzexams-bac-francais-1190564.pdf" },
+  { id: "dzexams-bac-francais-230351", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة اداب و فلسفة/فرنسية/dzexams-bac-francais-230351.pdf" },
+  { id: "dzexams-bac-francais-688851", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة اداب و فلسفة/فرنسية/dzexams-bac-francais-688851.pdf" },
+]);
+if (!RESOURCES['3AS-Literature-Philosophy']) RESOURCES['3AS-Literature-Philosophy'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Literature-Philosophy'].exams.push(...[
+  { id: "dzexams-bac-philosophie-1037853", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة اداب و فلسفة/فلسفة/dzexams-bac-philosophie-1037853.pdf" },
+  { id: "dzexams-bac-philosophie-578748", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة اداب و فلسفة/فلسفة/dzexams-bac-philosophie-578748.pdf" },
+  { id: "dzexams-bac-philosophie-595380", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة اداب و فلسفة/فلسفة/dzexams-bac-philosophie-595380.pdf" },
+]);
+if (!RESOURCES['3AS-Management-Islamic Studies']) RESOURCES['3AS-Management-Islamic Studies'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Management-Islamic Studies'].exams.push(...[
+  { id: "islamia-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/اسلامية/islamia-2023.pdf" },
+  { id: "islamia-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/اسلامية/islamia-2024.pdf" },
+  { id: "islamia-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/اسلامية/islamia-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Management-Economics']) RESOURCES['3AS-Management-Economics'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Management-Economics'].exams.push(...[
+  { id: "dzexams-bac-economie-management-1125133", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/الاقتصاد و المانجمنت/dzexams-bac-economie-management-1125133.pdf" },
+  { id: "dzexams-bac-economie-management-1489285", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/الاقتصاد و المانجمنت/dzexams-bac-economie-management-1489285.pdf" },
+  { id: "dzexams-bac-economie-management-404835", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/الاقتصاد و المانجمنت/dzexams-bac-economie-management-404835.pdf" },
+]);
+if (!RESOURCES['3AS-Management-Accounting']) RESOURCES['3AS-Management-Accounting'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Management-Accounting'].exams.push(...[
+  { id: "dzexams-bac-comptabilite-1587326", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/التسيير المحاسبي والمالي/dzexams-bac-comptabilite-1587326.pdf" },
+  { id: "dzexams-bac-comptabilite-1700458", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/التسيير المحاسبي والمالي/dzexams-bac-comptabilite-1700458.pdf" },
+  { id: "dzexams-bac-comptabilite-2127535", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/التسيير المحاسبي والمالي/dzexams-bac-comptabilite-2127535.pdf" },
+]);
+if (!RESOURCES['3AS-Management-English']) RESOURCES['3AS-Management-English'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Management-English'].exams.push(...[
+  { id: "English-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/انجليزية/English-2023.pdf" },
+  { id: "English-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/انجليزية/English-2024.pdf" },
+  { id: "English-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/انجليزية/English-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Management-History & Geography']) RESOURCES['3AS-Management-History & Geography'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Management-History & Geography'].exams.push(...[
+  { id: "dzexams-bac-histoire-geographie-1371453", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/تاريخ و جغرافيا/dzexams-bac-histoire-geographie-1371453.pdf" },
+  { id: "dzexams-bac-histoire-geographie-1846683", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/تاريخ و جغرافيا/dzexams-bac-histoire-geographie-1846683.pdf" },
+  { id: "dzexams-bac-histoire-geographie-854508", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/تاريخ و جغرافيا/dzexams-bac-histoire-geographie-854508.pdf" },
+]);
+if (!RESOURCES['3AS-Management-Math']) RESOURCES['3AS-Management-Math'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Management-Math'].exams.push(...[
+  { id: "dzexams-bac-mathematiques-1349993", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/رياضيات/dzexams-bac-mathematiques-1349993.pdf" },
+  { id: "dzexams-bac-mathematiques-1888843", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/رياضيات/dzexams-bac-mathematiques-1888843.pdf" },
+  { id: "dzexams-bac-mathematiques-572285", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/رياضيات/dzexams-bac-mathematiques-572285.pdf" },
+]);
+if (!RESOURCES['3AS-Management-Arabic']) RESOURCES['3AS-Management-Arabic'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Management-Arabic'].exams.push(...[
+  { id: "Arab-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/عربية/Arab-2023.pdf" },
+  { id: "Arab-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/عربية/Arab-2024.pdf" },
+  { id: "Arab-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/عربية/Arab-2025.pdf" },
+]);
 if (!RESOURCES['3AS-Management-French']) RESOURCES['3AS-Management-French'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
 RESOURCES['3AS-Management-French'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Math-French']) RESOURCES['3AS-Math-French'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Math-French'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Sciences-French']) RESOURCES['3AS-Sciences-French'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Sciences-French'].exams.push(...[
-  ]);
+  { id: "French-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/فرنسية/French-2023.pdf" },
+  { id: "French-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/فرنسية/French-2024.pdf" },
+  { id: "French-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/فرنسية/French-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Management-Philosophy']) RESOURCES['3AS-Management-Philosophy'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Management-Philosophy'].exams.push(...[
+  { id: "dzexams-bac-genie-electrique-658917", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/فلسفة/dzexams-bac-genie-electrique-658917.pdf" },
+  { id: "dzexams-bac-philosophie-1101173", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/فلسفة/dzexams-bac-philosophie-1101173.pdf" },
+  { id: "dzexams-bac-philosophie-761075", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/فلسفة/dzexams-bac-philosophie-761075.pdf" },
+]);
+if (!RESOURCES['3AS-Management-Law']) RESOURCES['3AS-Management-Law'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Management-Law'].exams.push(...[
+  { id: "dzexams-bac-droit-1145332", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/قانون/dzexams-bac-droit-1145332.pdf" },
+  { id: "dzexams-bac-droit-1189289", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/قانون/dzexams-bac-droit-1189289.pdf" },
+  { id: "dzexams-bac-droit-1644696", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تسيير و اقتصاد/قانون/dzexams-bac-droit-1644696.pdf" },
+]);
+if (!RESOURCES['3AS-Technical Math-Islamic Studies']) RESOURCES['3AS-Technical Math-Islamic Studies'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Technical Math-Islamic Studies'].exams.push(...[
+  { id: "islamia-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة تقني رياضي/اسلامية/islamia-2023.pdf" },
+  { id: "islamia-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة تقني رياضي/اسلامية/islamia-2024.pdf" },
+  { id: "islamia-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة تقني رياضي/اسلامية/islamia-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Technical Math-English']) RESOURCES['3AS-Technical Math-English'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Technical Math-English'].exams.push(...[
+  { id: "English-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة تقني رياضي/انجليزية/English-2023.pdf" },
+  { id: "English-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة تقني رياضي/انجليزية/English-2024.pdf" },
+  { id: "English-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة تقني رياضي/انجليزية/English-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Technical Math-History & Geography']) RESOURCES['3AS-Technical Math-History & Geography'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Technical Math-History & Geography'].exams.push(...[
+  { id: "H-G-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة تقني رياضي/تاريخ و جغرافيا/H-G-2023.pdf" },
+  { id: "H-G-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة تقني رياضي/تاريخ و جغرافيا/H-G-2024.pdf" },
+  { id: "H-G-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة تقني رياضي/تاريخ و جغرافيا/H-G-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Technical Math-Math']) RESOURCES['3AS-Technical Math-Math'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Technical Math-Math'].exams.push(...[
+  { id: "dzexams-bac-mathematiques-1494511", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تقني رياضي/رياضيات/dzexams-bac-mathematiques-1494511.pdf" },
+  { id: "dzexams-bac-mathematiques-2243211", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تقني رياضي/رياضيات/dzexams-bac-mathematiques-2243211.pdf" },
+  { id: "dzexams-bac-mathematiques-943402", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تقني رياضي/رياضيات/dzexams-bac-mathematiques-943402.pdf" },
+]);
+if (!RESOURCES['3AS-Technical Math-Arabic']) RESOURCES['3AS-Technical Math-Arabic'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Technical Math-Arabic'].exams.push(...[
+  { id: "Arab-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة تقني رياضي/عربية/Arab-2023.pdf" },
+  { id: "Arab-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة تقني رياضي/عربية/Arab-2024.pdf" },
+  { id: "Arab-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة تقني رياضي/عربية/Arab-2025.pdf" },
+]);
 if (!RESOURCES['3AS-Technical Math-French']) RESOURCES['3AS-Technical Math-French'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
 RESOURCES['3AS-Technical Math-French'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Languages-French']) RESOURCES['3AS-Languages-French'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Languages-French'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Math-Physics']) RESOURCES['3AS-Math-Physics'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Math-Physics'].exams.push(...[
-  ]);
+  { id: "French-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة تقني رياضي/فرنسية/French-2023.pdf" },
+  { id: "French-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة تقني رياضي/فرنسية/French-2024.pdf" },
+  { id: "French-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة تقني رياضي/فرنسية/French-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Technical Math-Philosophy']) RESOURCES['3AS-Technical Math-Philosophy'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Technical Math-Philosophy'].exams.push(...[
+  { id: "dzexams-bac-genie-electrique-658917", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تقني رياضي/فلسفة/dzexams-bac-genie-electrique-658917.pdf" },
+  { id: "dzexams-bac-philosophie-1101173", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تقني رياضي/فلسفة/dzexams-bac-philosophie-1101173.pdf" },
+  { id: "dzexams-bac-philosophie-761075", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة تقني رياضي/فلسفة/dzexams-bac-philosophie-761075.pdf" },
+]);
 if (!RESOURCES['3AS-Technical Math-Physics']) RESOURCES['3AS-Technical Math-Physics'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
 RESOURCES['3AS-Technical Math-Physics'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Sciences-Physics']) RESOURCES['3AS-Sciences-Physics'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Sciences-Physics'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Literature-Electrical Engineering']) RESOURCES['3AS-Literature-Electrical Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Literature-Electrical Engineering'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Languages-Electrical Engineering']) RESOURCES['3AS-Languages-Electrical Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Languages-Electrical Engineering'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Management-Electrical Engineering']) RESOURCES['3AS-Management-Electrical Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Management-Electrical Engineering'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Math-Electrical Engineering']) RESOURCES['3AS-Math-Electrical Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Math-Electrical Engineering'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Sciences-Electrical Engineering']) RESOURCES['3AS-Sciences-Electrical Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Sciences-Electrical Engineering'].exams.push(...[
-  ]);
+  { id: "Math-Physics-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة تقني رياضي/فيزياء/Math-Physics-2023.pdf" },
+  { id: "Math-Physics-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة تقني رياضي/فيزياء/Math-Physics-2024.pdf" },
+  { id: "Math-Physics-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة تقني رياضي/فيزياء/Math-Physics-2025.pdf" },
+]);
 if (!RESOURCES['3AS-Technical Math-Electrical Engineering']) RESOURCES['3AS-Technical Math-Electrical Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
 RESOURCES['3AS-Technical Math-Electrical Engineering'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Literature-Civil Engineering']) RESOURCES['3AS-Literature-Civil Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Literature-Civil Engineering'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Languages-Civil Engineering']) RESOURCES['3AS-Languages-Civil Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Languages-Civil Engineering'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Management-Civil Engineering']) RESOURCES['3AS-Management-Civil Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Management-Civil Engineering'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Math-Civil Engineering']) RESOURCES['3AS-Math-Civil Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Math-Civil Engineering'].exams.push(...[
-  ]);
-if (!RESOURCES['3AS-Sciences-Civil Engineering']) RESOURCES['3AS-Sciences-Civil Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
-RESOURCES['3AS-Sciences-Civil Engineering'].exams.push(...[
-  ]);
+  { id: "elec-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة تقني رياضي/هندسة كهربائية/elec-2023.pdf" },
+  { id: "elec-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة تقني رياضي/هندسة كهربائية/elec-2024.pdf" },
+  { id: "elec-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة تقني رياضي/هندسة كهربائية/elec-2025.pdf" },
+]);
 if (!RESOURCES['3AS-Technical Math-Civil Engineering']) RESOURCES['3AS-Technical Math-Civil Engineering'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
 RESOURCES['3AS-Technical Math-Civil Engineering'].exams.push(...[
-  ]);
+  { id: "genie-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة تقني رياضي/هندسة مدنية/genie-2023.pdf" },
+  { id: "genie-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة تقني رياضي/هندسة مدنية/genie-2024.pdf" },
+  { id: "genie-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة تقني رياضي/هندسة مدنية/genie-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Math-Islamic Studies']) RESOURCES['3AS-Math-Islamic Studies'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Math-Islamic Studies'].exams.push(...[
+  { id: "islamia-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة رياضيات/اسلامية/islamia-2023.pdf" },
+  { id: "islamia-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة رياضيات/اسلامية/islamia-2024.pdf" },
+  { id: "islamia-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة رياضيات/اسلامية/islamia-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Math-English']) RESOURCES['3AS-Math-English'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Math-English'].exams.push(...[
+  { id: "English-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة رياضيات/انجليزية/English-2023.pdf" },
+  { id: "English-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة رياضيات/انجليزية/English-2024.pdf" },
+  { id: "English-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة رياضيات/انجليزية/English-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Math-History & Geography']) RESOURCES['3AS-Math-History & Geography'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Math-History & Geography'].exams.push(...[
+  { id: "H-G-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة رياضيات/تاريخ و جغرافيا/H-G-2023.pdf" },
+  { id: "H-G-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة رياضيات/تاريخ و جغرافيا/H-G-2024.pdf" },
+  { id: "H-G-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة رياضيات/تاريخ و جغرافيا/H-G-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Math-Math']) RESOURCES['3AS-Math-Math'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Math-Math'].exams.push(...[
+  { id: "Math-Math-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة رياضيات/رياضيات/Math-Math-2023.pdf" },
+  { id: "Math-Math-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة رياضيات/رياضيات/Math-Math-2024.pdf" },
+  { id: "Math-Math-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة رياضيات/رياضيات/Math-Math-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Math-Arabic']) RESOURCES['3AS-Math-Arabic'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Math-Arabic'].exams.push(...[
+  { id: "Arab-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة رياضيات/عربية/Arab-2023.pdf" },
+  { id: "Arab-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة رياضيات/عربية/Arab-2024.pdf" },
+  { id: "Arab-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة رياضيات/عربية/Arab-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Math-Science']) RESOURCES['3AS-Math-Science'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Math-Science'].exams.push(...[
+  { id: "Math-Science-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة رياضيات/علوم/Math-Science-2023.pdf" },
+  { id: "Math-Science-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة رياضيات/علوم/Math-Science-2024.pdf" },
+  { id: "Math-Science-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة رياضيات/علوم/Math-Science-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Math-French']) RESOURCES['3AS-Math-French'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Math-French'].exams.push(...[
+  { id: "French-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة رياضيات/فرنسية/French-2023.pdf" },
+  { id: "French-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة رياضيات/فرنسية/French-2024.pdf" },
+  { id: "French-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة رياضيات/فرنسية/French-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Math-Philosophy']) RESOURCES['3AS-Math-Philosophy'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Math-Philosophy'].exams.push(...[
+  { id: "M_S-Philo-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة رياضيات/فلسفة/M_S-Philo-2023.pdf" },
+  { id: "M_S-Philo-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة رياضيات/فلسفة/M_S-Philo-2024.pdf" },
+  { id: "M_S-Philo-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة رياضيات/فلسفة/M_S-Philo-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Math-Physics']) RESOURCES['3AS-Math-Physics'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Math-Physics'].exams.push(...[
+  { id: "Math-Physics-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة رياضيات/فيزياء/Math-Physics-2023.pdf" },
+  { id: "Math-Physics-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة رياضيات/فيزياء/Math-Physics-2024.pdf" },
+  { id: "Math-Physics-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة رياضيات/فيزياء/Math-Physics-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Sciences-Islamic Studies']) RESOURCES['3AS-Sciences-Islamic Studies'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Sciences-Islamic Studies'].exams.push(...[
+  { id: "islamia-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/اسلامية/islamia-2023.pdf" },
+  { id: "islamia-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/اسلامية/islamia-2024.pdf" },
+  { id: "islamia-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/اسلامية/islamia-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Sciences-English']) RESOURCES['3AS-Sciences-English'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Sciences-English'].exams.push(...[
+  { id: "English-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/انجليزية/English-2023.pdf" },
+  { id: "English-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/انجليزية/English-2024.pdf" },
+  { id: "English-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/انجليزية/English-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Sciences-History & Geography']) RESOURCES['3AS-Sciences-History & Geography'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Sciences-History & Geography'].exams.push(...[
+  { id: "H-G-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/تاريخ و جغرافيا/H-G-2023.pdf" },
+  { id: "H-G-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/تاريخ و جغرافيا/H-G-2024.pdf" },
+  { id: "H-G-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/تاريخ و جغرافيا/H-G-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Sciences-Math']) RESOURCES['3AS-Sciences-Math'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Sciences-Math'].exams.push(...[
+  { id: "dzexams-bac-mathematiques-1435676", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/رياضيات/dzexams-bac-mathematiques-1435676.pdf" },
+  { id: "dzexams-bac-mathematiques-2229208", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/رياضيات/dzexams-bac-mathematiques-2229208.pdf" },
+  { id: "dzexams-bac-mathematiques-570438", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/رياضيات/dzexams-bac-mathematiques-570438.pdf" },
+]);
+if (!RESOURCES['3AS-Sciences-Arabic']) RESOURCES['3AS-Sciences-Arabic'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Sciences-Arabic'].exams.push(...[
+  { id: "Arab-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/عربية/Arab-2023.pdf" },
+  { id: "Arab-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/عربية/Arab-2024.pdf" },
+  { id: "Arab-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/عربية/Arab-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Sciences-Science']) RESOURCES['3AS-Sciences-Science'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Sciences-Science'].exams.push(...[
+  { id: "dzexams-bac-sciences-naturelles-1751784", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/علوم/dzexams-bac-sciences-naturelles-1751784.pdf" },
+  { id: "dzexams-bac-sciences-naturelles-1780707", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/علوم/dzexams-bac-sciences-naturelles-1780707.pdf" },
+  { id: "dzexams-bac-sciences-naturelles-2232508", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/علوم/dzexams-bac-sciences-naturelles-2232508.pdf" },
+]);
+if (!RESOURCES['3AS-Sciences-French']) RESOURCES['3AS-Sciences-French'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Sciences-French'].exams.push(...[
+  { id: "French-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/فرنسية/French-2023.pdf" },
+  { id: "French-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/فرنسية/French-2024.pdf" },
+  { id: "French-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/فرنسية/French-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Sciences-Philosophy']) RESOURCES['3AS-Sciences-Philosophy'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Sciences-Philosophy'].exams.push(...[
+  { id: "M_S-Philo-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/فلسفة/M_S-Philo-2023.pdf" },
+  { id: "M_S-Philo-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/فلسفة/M_S-Philo-2024.pdf" },
+  { id: "M_S-Philo-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/فلسفة/M_S-Philo-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Sciences-Physics']) RESOURCES['3AS-Sciences-Physics'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Sciences-Physics'].exams.push(...[
+  { id: "dzexams-bac-physique-2213419", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/فيزياء/dzexams-bac-physique-2213419.pdf" },
+  { id: "dzexams-bac-physique-842618", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/فيزياء/dzexams-bac-physique-842618.pdf" },
+  { id: "dzexams-bac-physique-956790", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة علوم تجريبية/فيزياء/dzexams-bac-physique-956790.pdf" },
+]);
+if (!RESOURCES['3AS-Languages-Islamic Studies']) RESOURCES['3AS-Languages-Islamic Studies'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Languages-Islamic Studies'].exams.push(...[
+  { id: "islamia-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/اسلامية/islamia-2023.pdf" },
+  { id: "islamia-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/اسلامية/islamia-2024.pdf" },
+  { id: "islamia-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/اسلامية/islamia-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Languages-English']) RESOURCES['3AS-Languages-English'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Languages-English'].exams.push(...[
+  { id: "dzexams-bac-anglais-1123526", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/انجليزية/dzexams-bac-anglais-1123526.pdf" },
+  { id: "dzexams-bac-anglais-2159137", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/انجليزية/dzexams-bac-anglais-2159137.pdf" },
+  { id: "dzexams-bac-anglais-322290", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/انجليزية/dzexams-bac-anglais-322290.pdf" },
+]);
+if (!RESOURCES['3AS-Languages-Third Language']) RESOURCES['3AS-Languages-Third Language'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Languages-Third Language'].exams.push(...[
+  { id: "italy-2023", title: "موضوع بكالوريا 2023", desc: "موضوع البكالوريا الرسمي", date: "2023", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/ايطالية/italy-2023.pdf" },
+  { id: "italy-2024", title: "موضوع بكالوريا 2024", desc: "موضوع البكالوريا الرسمي", date: "2024", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/ايطالية/italy-2024.pdf" },
+  { id: "italy-2025", title: "موضوع بكالوريا 2025", desc: "موضوع البكالوريا الرسمي", date: "2025", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/ايطالية/italy-2025.pdf" },
+]);
+if (!RESOURCES['3AS-Languages-History & Geography']) RESOURCES['3AS-Languages-History & Geography'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Languages-History & Geography'].exams.push(...[
+  { id: "dzexams-bac-histoire-geographie-1416850", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/تاريخ و جغرافيا/dzexams-bac-histoire-geographie-1416850.pdf" },
+  { id: "dzexams-bac-histoire-geographie-1997487", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/تاريخ و جغرافيا/dzexams-bac-histoire-geographie-1997487.pdf" },
+  { id: "dzexams-bac-histoire-geographie-358163", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/تاريخ و جغرافيا/dzexams-bac-histoire-geographie-358163.pdf" },
+]);
+if (!RESOURCES['3AS-Languages-Math']) RESOURCES['3AS-Languages-Math'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Languages-Math'].exams.push(...[
+  { id: "dzexams-bac-mathematiques-1061072", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/رياضيات/dzexams-bac-mathematiques-1061072.pdf" },
+  { id: "dzexams-bac-mathematiques-1376623-(1)", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/رياضيات/dzexams-bac-mathematiques-1376623 (1).pdf" },
+  { id: "dzexams-bac-mathematiques-758265", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/رياضيات/dzexams-bac-mathematiques-758265.pdf" },
+]);
+if (!RESOURCES['3AS-Languages-Arabic']) RESOURCES['3AS-Languages-Arabic'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Languages-Arabic'].exams.push(...[
+  { id: "dzexams-bac-arabe-1258854", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/عربية/dzexams-bac-arabe-1258854.pdf" },
+  { id: "dzexams-bac-arabe-2179524", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/عربية/dzexams-bac-arabe-2179524.pdf" },
+  { id: "dzexams-bac-arabe-256076", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/عربية/dzexams-bac-arabe-256076.pdf" },
+]);
+if (!RESOURCES['3AS-Languages-French']) RESOURCES['3AS-Languages-French'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Languages-French'].exams.push(...[
+  { id: "dzexams-bac-francais-2090468", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/فرنسية/dzexams-bac-francais-2090468.pdf" },
+  { id: "dzexams-bac-francais-335607", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/فرنسية/dzexams-bac-francais-335607.pdf" },
+  { id: "dzexams-bac-francais-989726", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/فرنسية/dzexams-bac-francais-989726.pdf" },
+]);
+if (!RESOURCES['3AS-Languages-Philosophy']) RESOURCES['3AS-Languages-Philosophy'] = { channels: [], lessons: [], exercises: [], exams: [], summaries: [] };
+RESOURCES['3AS-Languages-Philosophy'].exams.push(...[
+  { id: "dzexams-bac-philosophie-1060595", title: "موضوع بكالوريا رقم 1", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/فلسفة/dzexams-bac-philosophie-1060595.pdf" },
+  { id: "dzexams-bac-philosophie-288493", title: "موضوع بكالوريا رقم 2", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/فلسفة/dzexams-bac-philosophie-288493.pdf" },
+  { id: "dzexams-bac-philosophie-598660", title: "موضوع بكالوريا رقم 3", desc: "موضوع البكالوريا", date: "بكالوريا", url: "اختبارات/باكالوريا/شعبة لغات اجنبية/فلسفة/dzexams-bac-philosophie-598660.pdf" },
+]);
 
 // ROUTER — reads URL params and initializes the correct page
 // ============================================================
@@ -1043,8 +1193,17 @@ function initSubjectPage() {
     'exams': 'اختبارات'
   };
 
+  const isBacSubjectFlow = window.location.pathname.includes('bac_subject.html');
+
   ['channels', 'lessons', 'exercises', 'exams'].forEach(cat => {
-    const itemsToRender = data[cat] || [];
+    let itemsToRender = data[cat] || [];
+
+    // On regular subject.html, exclude official bac exams (they belong on bac_subject.html only)
+    if (cat === 'exams' && !isBacSubjectFlow) {
+      itemsToRender = itemsToRender.filter(i =>
+        !i.title.toLowerCase().includes('بكالوريا') && !i.id.toLowerCase().includes('bac')
+      );
+    }
 
     const tabEl = document.querySelector(`.tab[data-tab="${cat}"] .tab-count`);
     if(tabEl) tabEl.textContent = itemsToRender.length;
@@ -1117,8 +1276,8 @@ function renderResourceList(cat, items, color) {
       let examsHtml = '';
       const isBacFlow = window.location.pathname.includes('bac_subject.html');
       
-      // Official Baccalaureate Section
-      if (year === '3AS' || official.length > 0) {
+      // Official Baccalaureate Section — only shown on bac_subject.html
+      if (isBacFlow) {
         examsHtml += `<div class="term-section">
           <div class="term-header"><h3>المواضيع</h3></div>
           ${official.length > 0 ? official.map(i => renderItem(i, cat, icon, color)).join('') : renderEmptyTerm("لا توجد مواضيع متوفرة حالياً لهذه المادة.")}
@@ -1303,6 +1462,9 @@ document.addEventListener('DOMContentLoaded', () => {
         initTabs();
         initResourceSearch();
         initChapterFilters();
+    }
+    if(window.location.pathname.includes('bac_subject.html')) {
+        initResourceSearch();
     }
 });
 window.addEventListener('load', hideLoader);
